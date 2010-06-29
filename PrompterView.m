@@ -24,7 +24,7 @@
 }
 
 - (void)drawRect:(CGRect)rect {
-    // Drawing code
+	[@"This is a sample." drawInRect:self.bounds withFont:[UIFont systemFontOfSize:12.0]];
 }
 
 - (void)dealloc {
