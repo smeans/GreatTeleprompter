@@ -37,6 +37,7 @@
 - (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
 {
 	speechOffset += 10.0;
+	[self setNeedsDisplay];
 }
 
 - (void)setTheSpeech:(NSString *)newSpeech
