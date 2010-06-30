@@ -331,7 +331,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>CE80FA8C11DA47F8000CB627</string>
+										<string>CE80FACE11DB9D06000CB627</string>
 										<key>history</key>
 										<array>
 											<string>CE816ABB1180A2AF00533D01</string>
@@ -339,9 +339,9 @@
 											<string>CE80FA7A11DA45DF000CB627</string>
 											<string>CE80FA7B11DA45DF000CB627</string>
 											<string>CE80FA8411DA46BA000CB627</string>
-											<string>CE80FA8511DA46BA000CB627</string>
-											<string>CE80FA8A11DA47F8000CB627</string>
-											<string>CE80FA8B11DA47F8000CB627</string>
+											<string>CE80FACB11DB9D06000CB627</string>
+											<string>CE80FACC11DB9D06000CB627</string>
+											<string>CE80FACD11DB9D06000CB627</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -539,7 +539,8 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>CE80FA8D11DA47F8000CB627</string>
+		<string>CE80FAC711DB9CE8000CB627</string>
+		<string>CE80FA9911DB9B10000CB627</string>
 		<string>CE80F97211DA3691000CB627</string>
 		<string>CE80F95F11D4ECA7000CB627</string>
 		<string>1C78EAAD065D492600B07095</string>
@@ -882,6 +883,8 @@
 					<key>Dock</key>
 					<array>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -1178,8 +1181,8 @@
 			<true/>
 			<key>TableOfContents</key>
 			<array>
-				<string>CEDA3FB211C292EA00E7363F</string>
-				<string>CEDA3FB311C292EA00E7363F</string>
+				<string>CE80FA9911DB9B10000CB627</string>
+				<string>CE80FA9A11DB9B10000CB627</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
 				<string>1CA1AED706398EBD00589147</string>
 			</array>
@@ -1188,7 +1191,7 @@
 			<key>WindowString</key>
 			<string>186 266 744 409 0 0 1280 698 </string>
 			<key>WindowToolGUID</key>
-			<string>CEDA3FB211C292EA00E7363F</string>
+			<string>CE80FA9911DB9B10000CB627</string>
 			<key>WindowToolIsVisible</key>
 			<false/>
 		</dict>

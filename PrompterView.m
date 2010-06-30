@@ -32,6 +32,14 @@
 	[theSpeech drawInRect:self.bounds withFont:[UIFont systemFontOfSize:36.0]];
 }
 
+- (void)setTheSpeech:(NSString *)newSpeech
+{
+	[theSpeech release];
+	theSpeech = [newSpeech retain];
+	
+	[self setNeedsDisplay];
+}
+
 - (void)dealloc {
     [super dealloc];
 }
