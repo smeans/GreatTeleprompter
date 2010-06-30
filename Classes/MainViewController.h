@@ -10,6 +10,7 @@
 #import "PrompterView.h"
 
 @interface MainViewController : UIViewController <FlipsideViewControllerDelegate> {
+	IBOutlet PrompterView *prompter;
 }
 
 - (IBAction)showInfo;

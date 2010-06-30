@@ -11,6 +11,8 @@
 
 @implementation PrompterView
 
+@synthesize theSpeech;
+
 - (id)initWithFrame:(CGRect)frame {
     if ((self = [super initWithFrame:frame])) {
         [[UIApplication sharedApplication] setStatusBarHidden:YES];
@@ -27,7 +29,7 @@
 	CGContextRef c = UIGraphicsGetCurrentContext();
 	CGContextSetRGBFillColor(c, 1.0, 1.0, 1.0, 1.0);
 	
-	[@"This is a sample." drawInRect:self.bounds withFont:[UIFont systemFontOfSize:36.0]];
+	[theSpeech drawInRect:self.bounds withFont:[UIFont systemFontOfSize:36.0]];
 }
 
 - (void)dealloc {

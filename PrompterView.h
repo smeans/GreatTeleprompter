@@ -10,6 +10,9 @@
 
 
 @interface PrompterView : UIView {
+	NSString *theSpeech;
 }
+
+@property (nonatomic, retain) NSString *theSpeech;
 
 @end

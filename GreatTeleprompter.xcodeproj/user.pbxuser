@@ -22,16 +22,16 @@
 	};
 	289233A80DB2D0DB0083E9F9 /* MainViewController.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {593, 234}}";
-			sepNavSelRange = "{298, 0}";
-			sepNavVisRange = "{28, 302}";
+			sepNavIntBoundsRect = "{{0, 0}, {593, 247}}";
+			sepNavSelRange = "{332, 0}";
+			sepNavVisRange = "{3, 361}";
 		};
 	};
 	289233A90DB2D0DB0083E9F9 /* MainViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {831, 1014}}";
-			sepNavSelRange = "{727, 0}";
-			sepNavVisRange = "{543, 362}";
+			sepNavIntBoundsRect = "{{0, 0}, {831, 1027}}";
+			sepNavSelRange = "{584, 0}";
+			sepNavVisRange = "{427, 246}";
 		};
 	};
 	289233AC0DB2D0DB0083E9F9 /* FlipsideViewController.h */ = {
@@ -144,6 +144,13 @@
 			CE80FA7E11DA45DF000CB627 /* PBXTextBookmark */ = CE80FA7E11DA45DF000CB627 /* PBXTextBookmark */;
 			CE80FA7F11DA45DF000CB627 /* XCBuildMessageTextBookmark */ = CE80FA7F11DA45DF000CB627 /* XCBuildMessageTextBookmark */;
 			CE80FA8011DA45DF000CB627 /* PBXTextBookmark */ = CE80FA8011DA45DF000CB627 /* PBXTextBookmark */;
+			CE80FA8411DA46BA000CB627 /* PBXTextBookmark */ = CE80FA8411DA46BA000CB627 /* PBXTextBookmark */;
+			CE80FA8511DA46BA000CB627 /* PBXTextBookmark */ = CE80FA8511DA46BA000CB627 /* PBXTextBookmark */;
+			CE80FA8611DA46BA000CB627 /* PBXTextBookmark */ = CE80FA8611DA46BA000CB627 /* PBXTextBookmark */;
+			CE80FA8711DA46BA000CB627 /* PBXTextBookmark */ = CE80FA8711DA46BA000CB627 /* PBXTextBookmark */;
+			CE80FA8A11DA47F8000CB627 /* PBXTextBookmark */ = CE80FA8A11DA47F8000CB627 /* PBXTextBookmark */;
+			CE80FA8B11DA47F8000CB627 /* PBXTextBookmark */ = CE80FA8B11DA47F8000CB627 /* PBXTextBookmark */;
+			CE80FA8C11DA47F8000CB627 /* PBXTextBookmark */ = CE80FA8C11DA47F8000CB627 /* PBXTextBookmark */;
 			CE816ABB1180A2AF00533D01 = CE816ABB1180A2AF00533D01 /* PBXTextBookmark */;
 			CE816AEB1183558100533D01 = CE816AEB1183558100533D01 /* PBXTextBookmark */;
 			CEDA3FB411C292EB00E7363F = CEDA3FB411C292EB00E7363F /* PBXTextBookmark */;
@@ -162,7 +169,7 @@
 		fRef = CEDA3F9B11C28CE500E7363F /* PrompterView.m */;
 		name = "PrompterView.m: 13";
 		rLen = 0;
-		rLoc = 205;
+		rLoc = 229;
 		rType = 0;
 		vrLen = 336;
 		vrLoc = 47;
@@ -172,7 +179,7 @@
 		fRef = CEDA3F9A11C28CE500E7363F /* PrompterView.h */;
 		name = "PrompterView.h: 12";
 		rLen = 0;
-		rLoc = 210;
+		rLoc = 232;
 		rType = 0;
 		vrLen = 215;
 		vrLoc = 3;
@@ -182,7 +189,7 @@
 		fRef = CEDA3F9B11C28CE500E7363F /* PrompterView.m */;
 		name = "PrompterView.m: 27";
 		rLen = 0;
-		rLoc = 691;
+		rLoc = 704;
 		rType = 0;
 		vrLen = 338;
 		vrLoc = 206;
@@ -192,7 +199,7 @@
 		fRef = CEDA3F9B11C28CE500E7363F /* PrompterView.m */;
 		name = "PrompterView.m: 27";
 		rLen = 0;
-		rLoc = 691;
+		rLoc = 704;
 		rType = 0;
 		vrLen = 259;
 		vrLoc = 383;
@@ -212,7 +219,7 @@
 		fRef = CEDA3F9B11C28CE500E7363F /* PrompterView.m */;
 		name = "PrompterView.m: 27";
 		rLen = 0;
-		rLoc = 604;
+		rLoc = 628;
 		rType = 0;
 		vrLen = 191;
 		vrLoc = 383;
@@ -222,7 +229,7 @@
 		fRef = CEDA3F9B11C28CE500E7363F /* PrompterView.m */;
 		name = "PrompterView.m: 29";
 		rLen = 0;
-		rLoc = 694;
+		rLoc = 707;
 		rType = 0;
 		vrLen = 186;
 		vrLoc = 383;
@@ -232,7 +239,7 @@
 		fRef = CEDA3F9B11C28CE500E7363F /* PrompterView.m */;
 		name = "PrompterView.m: 26";
 		rLen = 0;
-		rLoc = 604;
+		rLoc = 628;
 		rType = 0;
 		vrLen = 191;
 		vrLoc = 383;
@@ -242,7 +249,7 @@
 		fRef = CEDA3F9B11C28CE500E7363F /* PrompterView.m */;
 		name = "PrompterView.m: 27";
 		rLen = 0;
-		rLoc = 691;
+		rLoc = 704;
 		rType = 0;
 		vrLen = 285;
 		vrLoc = 358;
@@ -252,7 +259,7 @@
 		fRef = CEDA3F9B11C28CE500E7363F /* PrompterView.m */;
 		name = "PrompterView.m: 27";
 		rLen = 0;
-		rLoc = 604;
+		rLoc = 628;
 		rType = 0;
 		vrLen = 209;
 		vrLoc = 358;
@@ -262,7 +269,7 @@
 		fRef = CEDA3F9B11C28CE500E7363F /* PrompterView.m */;
 		name = "PrompterView.m: 23";
 		rLen = 0;
-		rLoc = 438;
+		rLoc = 462;
 		rType = 0;
 		vrLen = 209;
 		vrLoc = 358;
@@ -272,7 +279,7 @@
 		fRef = CEDA3F9B11C28CE500E7363F /* PrompterView.m */;
 		name = "PrompterView.m: 27";
 		rLen = 0;
-		rLoc = 691;
+		rLoc = 704;
 		rType = 0;
 		vrLen = 275;
 		vrLoc = 358;
@@ -282,7 +289,7 @@
 		fRef = CEDA3F9B11C28CE500E7363F /* PrompterView.m */;
 		name = "PrompterView.m: 27";
 		rLen = 0;
-		rLoc = 604;
+		rLoc = 628;
 		rType = 0;
 		vrLen = 333;
 		vrLoc = 404;
@@ -292,7 +299,7 @@
 		fRef = CEDA3F9B11C28CE500E7363F /* PrompterView.m */;
 		name = "PrompterView.m: 27";
 		rLen = 0;
-		rLoc = 604;
+		rLoc = 628;
 		rType = 0;
 		vrLen = 331;
 		vrLoc = 404;
@@ -302,7 +309,7 @@
 		fRef = CEDA3F9B11C28CE500E7363F /* PrompterView.m */;
 		name = "PrompterView.m: 28";
 		rLen = 0;
-		rLoc = 691;
+		rLoc = 704;
 		rType = 0;
 		vrLen = 332;
 		vrLoc = 404;
@@ -312,7 +319,7 @@
 		fRef = CEDA3F9B11C28CE500E7363F /* PrompterView.m */;
 		name = "PrompterView.m: 28";
 		rLen = 0;
-		rLoc = 691;
+		rLoc = 704;
 		rType = 0;
 		vrLen = 331;
 		vrLoc = 404;
@@ -322,7 +329,7 @@
 		fRef = CEDA3F9B11C28CE500E7363F /* PrompterView.m */;
 		name = "PrompterView.m: 28";
 		rLen = 0;
-		rLoc = 691;
+		rLoc = 704;
 		rType = 0;
 		vrLen = 331;
 		vrLoc = 404;
@@ -332,7 +339,7 @@
 		fRef = CEDA3F9B11C28CE500E7363F /* PrompterView.m */;
 		name = "PrompterView.m: 27";
 		rLen = 0;
-		rLoc = 691;
+		rLoc = 704;
 		rType = 0;
 		vrLen = 258;
 		vrLoc = 384;
@@ -342,7 +349,7 @@
 		fRef = CEDA3F9B11C28CE500E7363F /* PrompterView.m */;
 		name = "PrompterView.m: 27";
 		rLen = 0;
-		rLoc = 604;
+		rLoc = 628;
 		rType = 0;
 		vrLen = 258;
 		vrLoc = 384;
@@ -352,7 +359,7 @@
 		fRef = CEDA3F9B11C28CE500E7363F /* PrompterView.m */;
 		name = "PrompterView.m: 29";
 		rLen = 0;
-		rLoc = 603;
+		rLoc = 627;
 		rType = 0;
 		vrLen = 352;
 		vrLoc = 384;
@@ -362,7 +369,7 @@
 		fRef = CEDA3F9B11C28CE500E7363F /* PrompterView.m */;
 		name = "PrompterView.m: 30";
 		rLen = 0;
-		rLoc = 686;
+		rLoc = 699;
 		rType = 0;
 		vrLen = 352;
 		vrLoc = 384;
@@ -372,7 +379,7 @@
 		fRef = CEDA3F9A11C28CE500E7363F /* PrompterView.h */;
 		name = "PrompterView.h: 16";
 		rLen = 0;
-		rLoc = 212;
+		rLoc = 286;
 		rType = 0;
 		vrLen = 248;
 		vrLoc = 44;
@@ -382,7 +389,7 @@
 		fRef = CEDA3F9B11C28CE500E7363F /* PrompterView.m */;
 		name = "PrompterView.m: 30";
 		rLen = 0;
-		rLoc = 686;
+		rLoc = 699;
 		rType = 0;
 		vrLen = 353;
 		vrLoc = 384;
@@ -392,7 +399,7 @@
 		fRef = CEDA3F9B11C28CE500E7363F /* PrompterView.m */;
 		name = "PrompterView.m: 32";
 		rLen = 0;
-		rLoc = 626;
+		rLoc = 639;
 		rType = 0;
 		vrLen = 340;
 		vrLoc = 407;
@@ -422,7 +429,7 @@
 		fRef = 289233A90DB2D0DB0083E9F9 /* MainViewController.m */;
 		name = "MainViewController.m: 34";
 		rLen = 0;
-		rLoc = 727;
+		rLoc = 722;
 		rType = 0;
 		vrLen = 362;
 		vrLoc = 543;
@@ -442,7 +449,7 @@
 		fRef = CEDA3F9A11C28CE500E7363F /* PrompterView.h */;
 		name = "PrompterView.h: 14";
 		rLen = 0;
-		rLoc = 212;
+		rLoc = 286;
 		rType = 0;
 		vrLen = 218;
 		vrLoc = 0;
@@ -453,7 +460,7 @@
 		fRef = CEDA3F9B11C28CE500E7363F /* PrompterView.m */;
 		fallbackIsa = XCBuildMessageTextBookmark;
 		rLen = 0;
-		rLoc = 12;
+		rLoc = 14;
 		rType = 1;
 	};
 	CE80FA8011DA45DF000CB627 /* PBXTextBookmark */ = {
@@ -461,10 +468,80 @@
 		fRef = CEDA3F9B11C28CE500E7363F /* PrompterView.m */;
 		name = "PrompterView.m: 13";
 		rLen = 0;
-		rLoc = 205;
+		rLoc = 229;
 		rType = 0;
 		vrLen = 298;
 		vrLoc = 86;
+	};
+	CE80FA8411DA46BA000CB627 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = CEDA3F9A11C28CE500E7363F /* PrompterView.h */;
+		name = "PrompterView.h: 16";
+		rLen = 0;
+		rLoc = 285;
+		rType = 0;
+		vrLen = 248;
+		vrLoc = 44;
+	};
+	CE80FA8511DA46BA000CB627 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = CEDA3F9B11C28CE500E7363F /* PrompterView.m */;
+		name = "PrompterView.m: 32";
+		rLen = 0;
+		rLoc = 628;
+		rType = 0;
+		vrLen = 325;
+		vrLoc = 431;
+	};
+	CE80FA8611DA46BA000CB627 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 289233A90DB2D0DB0083E9F9 /* MainViewController.m */;
+		name = "MainViewController.m: 34";
+		rLen = 0;
+		rLoc = 722;
+		rType = 0;
+		vrLen = 390;
+		vrLoc = 153;
+	};
+	CE80FA8711DA46BA000CB627 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 289233A80DB2D0DB0083E9F9 /* MainViewController.h */;
+		name = "MainViewController.h: 13";
+		rLen = 0;
+		rLoc = 332;
+		rType = 0;
+		vrLen = 361;
+		vrLoc = 3;
+	};
+	CE80FA8A11DA47F8000CB627 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 289233A80DB2D0DB0083E9F9 /* MainViewController.h */;
+		name = "MainViewController.h: 13";
+		rLen = 0;
+		rLoc = 332;
+		rType = 0;
+		vrLen = 361;
+		vrLoc = 3;
+	};
+	CE80FA8B11DA47F8000CB627 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 289233A90DB2D0DB0083E9F9 /* MainViewController.m */;
+		name = "MainViewController.m: 34";
+		rLen = 0;
+		rLoc = 722;
+		rType = 0;
+		vrLen = 389;
+		vrLoc = 154;
+	};
+	CE80FA8C11DA47F8000CB627 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 289233A90DB2D0DB0083E9F9 /* MainViewController.m */;
+		name = "MainViewController.m: 27";
+		rLen = 0;
+		rLoc = 584;
+		rType = 0;
+		vrLen = 246;
+		vrLoc = 427;
 	};
 	CE816ABB1180A2AF00533D01 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
@@ -534,16 +611,16 @@
 	};
 	CEDA3F9A11C28CE500E7363F /* PrompterView.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {586, 208}}";
-			sepNavSelRange = "{212, 0}";
-			sepNavVisRange = "{0, 218}";
+			sepNavIntBoundsRect = "{{0, 0}, {586, 247}}";
+			sepNavSelRange = "{285, 0}";
+			sepNavVisRange = "{44, 248}";
 		};
 	};
 	CEDA3F9B11C28CE500E7363F /* PrompterView.m */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {586, 533}}";
-			sepNavSelRange = "{205, 0}";
-			sepNavVisRange = "{86, 298}";
+			sepNavSelRange = "{628, 0}";
+			sepNavVisRange = "{431, 325}";
 		};
 	};
 	CEDA3FB411C292EB00E7363F /* PBXTextBookmark */ = {
@@ -561,7 +638,7 @@
 		fRef = 289233A90DB2D0DB0083E9F9 /* MainViewController.m */;
 		name = "MainViewController.m: 34";
 		rLen = 0;
-		rLoc = 727;
+		rLoc = 722;
 		rType = 0;
 		vrLen = 342;
 		vrLoc = 565;
@@ -571,7 +648,7 @@
 		fRef = 289233A80DB2D0DB0083E9F9 /* MainViewController.h */;
 		name = "MainViewController.h: 13";
 		rLen = 0;
-		rLoc = 299;
+		rLoc = 333;
 		rType = 0;
 		vrLen = 327;
 		vrLoc = 3;
@@ -581,7 +658,7 @@
 		fRef = CEDA3F9A11C28CE500E7363F /* PrompterView.h */;
 		name = "PrompterView.h: 14";
 		rLen = 0;
-		rLoc = 212;
+		rLoc = 286;
 		rType = 0;
 		vrLen = 218;
 		vrLoc = 0;
@@ -591,7 +668,7 @@
 		fRef = CEDA3F9B11C28CE500E7363F /* PrompterView.m */;
 		name = "PrompterView.m: 15";
 		rLen = 0;
-		rLoc = 205;
+		rLoc = 229;
 		rType = 0;
 		vrLen = 357;
 		vrLoc = 47;
@@ -601,7 +678,7 @@
 		fRef = CEDA3F9B11C28CE500E7363F /* PrompterView.m */;
 		name = "PrompterView.m: 13";
 		rLen = 0;
-		rLoc = 205;
+		rLoc = 229;
 		rType = 0;
 		vrLen = 358;
 		vrLoc = 47;
