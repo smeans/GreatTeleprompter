@@ -276,8 +276,8 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>6</integer>
-									<integer>4</integer>
+									<integer>3</integer>
+									<integer>1</integer>
 									<integer>0</integer>
 								</array>
 							</array>
@@ -319,7 +319,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>MainViewController.m</string>
+								<string>PrompterView.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -327,21 +327,21 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>MainViewController.m</string>
+										<string>PrompterView.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>CE80FAD311DBA214000CB627</string>
+										<string>CE80FAEA11DBE57F000CB627</string>
 										<key>history</key>
 										<array>
 											<string>CE816ABB1180A2AF00533D01</string>
 											<string>CE80F97711DA37FD000CB627</string>
 											<string>CE80FA7A11DA45DF000CB627</string>
 											<string>CE80FA7B11DA45DF000CB627</string>
-											<string>CE80FA8411DA46BA000CB627</string>
-											<string>CE80FACB11DB9D06000CB627</string>
 											<string>CE80FACC11DB9D06000CB627</string>
-											<string>CE80FACA11DB9D03000CB627</string>
+											<string>CE80FAD411DBE397000CB627</string>
+											<string>CE80FAE811DBE57F000CB627</string>
+											<string>CE80FAE911DBE57F000CB627</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -539,7 +539,7 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>CE80FAD211DBA20B000CB627</string>
+		<string>CE80FAEB11DBE57F000CB627</string>
 		<string>CE80FA9911DB9B10000CB627</string>
 		<string>CE80F97211DA3691000CB627</string>
 		<string>CE80F95F11D4ECA7000CB627</string>

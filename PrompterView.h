@@ -11,6 +11,7 @@
 
 @interface PrompterView : UIView {
 	NSString *theSpeech;
+	float speechOffset;
 }
 
 @property (nonatomic, retain) NSString *theSpeech;

@@ -29,13 +29,22 @@
 	CGContextRef c = UIGraphicsGetCurrentContext();
 	CGContextSetRGBFillColor(c, 1.0, 1.0, 1.0, 1.0);
 	
-	[theSpeech drawInRect:self.bounds withFont:[UIFont systemFontOfSize:36.0]];
+	CGRect rc = CGRectMake(rect.origin.x, rect.origin.y - speechOffset, rect.size.width, rect.size.height + speechOffset);
+	
+	[theSpeech drawInRect:rc withFont:[UIFont systemFontOfSize:36.0]];
+}
+
+- (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
+{
+	speechOffset += 10.0;
 }
 
 - (void)setTheSpeech:(NSString *)newSpeech
 {
 	[theSpeech release];
 	theSpeech = [newSpeech retain];
+	
+	speechOffset = 0.0;
 	
 	[self setNeedsDisplay];
 }
