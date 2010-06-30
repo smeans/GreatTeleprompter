@@ -27,6 +27,11 @@
 	prompter.theSpeech = theAppDelegate.currentSpeech;
 }
 
+- (void)viewDidAppear:(BOOL)animated
+{
+	prompter.theSpeech = theAppDelegate.currentSpeech;
+}
+
 - (void)flipsideViewControllerDidFinish:(FlipsideViewController *)controller {
     
 	[self dismissModalViewControllerAnimated:YES];

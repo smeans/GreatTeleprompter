@@ -301,7 +301,7 @@
 							<real>238</real>
 						</array>
 						<key>RubberWindowFrame</key>
-						<string>165 206 907 492 0 0 1280 698 </string>
+						<string>166 206 907 492 0 0 1280 698 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXSmartGroupTreeModule</string>
@@ -331,7 +331,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>CE80FACE11DB9D06000CB627</string>
+										<string>CE80FAD311DBA214000CB627</string>
 										<key>history</key>
 										<array>
 											<string>CE816ABB1180A2AF00533D01</string>
@@ -341,7 +341,7 @@
 											<string>CE80FA8411DA46BA000CB627</string>
 											<string>CE80FACB11DB9D06000CB627</string>
 											<string>CE80FACC11DB9D06000CB627</string>
-											<string>CE80FACD11DB9D06000CB627</string>
+											<string>CE80FACA11DB9D03000CB627</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -355,7 +355,7 @@
 								<key>Frame</key>
 								<string>{{0, 0}, {647, 239}}</string>
 								<key>RubberWindowFrame</key>
-								<string>165 206 907 492 0 0 1280 698 </string>
+								<string>166 206 907 492 0 0 1280 698 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
@@ -375,7 +375,7 @@
 								<key>Frame</key>
 								<string>{{0, 244}, {647, 207}}</string>
 								<key>RubberWindowFrame</key>
-								<string>165 206 907 492 0 0 1280 698 </string>
+								<string>166 206 907 492 0 0 1280 698 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
@@ -539,7 +539,7 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>CE80FAC711DB9CE8000CB627</string>
+		<string>CE80FAD211DBA20B000CB627</string>
 		<string>CE80FA9911DB9B10000CB627</string>
 		<string>CE80F97211DA3691000CB627</string>
 		<string>CE80F95F11D4ECA7000CB627</string>
@@ -549,7 +549,7 @@
 		<string>/Users/user/Documents/GreatTeleprompter/GreatTeleprompter.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
-	<string>165 206 907 492 0 0 1280 698 </string>
+	<string>166 206 907 492 0 0 1280 698 </string>
 	<key>WindowToolsV3</key>
 	<array>
 		<dict>
