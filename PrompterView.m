@@ -34,19 +34,21 @@
 	[theSpeech drawInRect:rc withFont:[UIFont systemFontOfSize:36.0]];
 }
 
-- (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
-{
-	speechOffset += 10.0;
-	[self setNeedsDisplay];
-}
-
 - (void)setTheSpeech:(NSString *)newSpeech
 {
 	[theSpeech release];
 	theSpeech = [newSpeech retain];
 	
+	tickTimer = [NSTimer timerWithTimeInterval:TICK_INTERVAL target:self selector:@selector(timerTick:) userInfo:nil repeats:YES];
+	
 	speechOffset = 0.0;
 	
+	[self setNeedsDisplay];
+}
+
+- (void)timerTick:(NSTimer*)theTimer
+{
+	speechOffset += 10.0;
 	[self setNeedsDisplay];
 }
 

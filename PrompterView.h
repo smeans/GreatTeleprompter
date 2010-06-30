@@ -12,8 +12,12 @@
 @interface PrompterView : UIView {
 	NSString *theSpeech;
 	float speechOffset;
+	NSTimer *tickTimer;
 }
 
 @property (nonatomic, retain) NSString *theSpeech;
 
+- (void)timerTick:(NSTimer*)theTimer;
+
+#define TICK_INTERVAL	.1
 @end
