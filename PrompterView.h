@@ -19,5 +19,5 @@
 
 - (void)timerTick:(NSTimer*)theTimer;
 
-#define TICK_INTERVAL	.1
+#define TICK_INTERVAL	.05
 @end

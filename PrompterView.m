@@ -39,7 +39,7 @@
 	[theSpeech release];
 	theSpeech = [newSpeech retain];
 	
-	tickTimer = [NSTimer timerWithTimeInterval:TICK_INTERVAL target:self selector:@selector(timerTick:) userInfo:nil repeats:YES];
+	tickTimer = [NSTimer scheduledTimerWithTimeInterval:TICK_INTERVAL target:self selector:@selector(timerTick:) userInfo:nil repeats:YES];
 	
 	speechOffset = 0.0;
 	
@@ -48,7 +48,7 @@
 
 - (void)timerTick:(NSTimer*)theTimer
 {
-	speechOffset += 10.0;
+	speechOffset += 1.0;
 	[self setNeedsDisplay];
 }
 
