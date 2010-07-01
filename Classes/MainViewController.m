@@ -76,6 +76,7 @@
 - (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
 {
 	prompter.paused = true;
+	playButton.hidden = false;
 }
 
 - (void)dealloc {

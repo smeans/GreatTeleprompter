@@ -11,6 +11,7 @@
 
 @interface MainViewController : UIViewController <FlipsideViewControllerDelegate> {
 	IBOutlet PrompterView *prompter;
+	IBOutlet UIButton *playButton;
 }
 
 - (IBAction)showInfo;
