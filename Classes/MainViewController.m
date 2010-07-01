@@ -73,6 +73,10 @@
 }
 */
 
+- (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
+{
+	prompter.paused = true;
+}
 
 - (void)dealloc {
     [super dealloc];
