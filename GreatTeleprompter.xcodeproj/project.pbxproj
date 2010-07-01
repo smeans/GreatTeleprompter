@@ -17,6 +17,7 @@
 		288765590DF743DE002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765580DF743DE002DB57D /* CoreGraphics.framework */; };
 		289233AE0DB2D0DB0083E9F9 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 289233A90DB2D0DB0083E9F9 /* MainViewController.m */; };
 		289233B00DB2D0DB0083E9F9 /* FlipsideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 289233AD0DB2D0DB0083E9F9 /* FlipsideViewController.m */; };
+		CE80FB5611DD040D000CB627 /* PlayButton.png in Resources */ = {isa = PBXBuildFile; fileRef = CE80FB5511DD040D000CB627 /* PlayButton.png */; };
 		CEDA3F9C11C28CE500E7363F /* PrompterView.m in Sources */ = {isa = PBXBuildFile; fileRef = CEDA3F9B11C28CE500E7363F /* PrompterView.m */; };
 /* End PBXBuildFile section */
 
@@ -37,6 +38,7 @@
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* GreatTeleprompter_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GreatTeleprompter_Prefix.pch; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* GreatTeleprompter-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GreatTeleprompter-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		CE80FB5511DD040D000CB627 /* PlayButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PlayButton.png; sourceTree = "<group>"; };
 		CEDA3F9A11C28CE500E7363F /* PrompterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrompterView.h; sourceTree = "<group>"; };
 		CEDA3F9B11C28CE500E7363F /* PrompterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrompterView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -118,6 +120,7 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				CE80FB5511DD040D000CB627 /* PlayButton.png */,
 				280E754A0DD40C5E005A515E /* FlipsideView.xib */,
 				280E754B0DD40C5E005A515E /* MainView.xib */,
 				280E754C0DD40C5E005A515E /* MainWindow.xib */,
@@ -197,6 +200,7 @@
 				280E754D0DD40C5E005A515E /* FlipsideView.xib in Resources */,
 				280E754E0DD40C5E005A515E /* MainView.xib in Resources */,
 				280E754F0DD40C5E005A515E /* MainWindow.xib in Resources */,
+				CE80FB5611DD040D000CB627 /* PlayButton.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
