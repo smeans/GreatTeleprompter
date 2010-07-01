@@ -11,7 +11,7 @@
 
 @implementation PrompterView
 
-@synthesize theSpeech;
+@synthesize theSpeech, paused;
 
 - (id)initWithFrame:(CGRect)frame {
     if ((self = [super initWithFrame:frame])) {
@@ -48,8 +48,10 @@
 
 - (void)timerTick:(NSTimer*)theTimer
 {
-	speechOffset += 1.0;
-	[self setNeedsDisplay];
+	if (!paused) {
+		speechOffset += 1.0;
+		[self setNeedsDisplay];
+	}
 }
 
 - (void)dealloc {

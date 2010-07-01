@@ -13,9 +13,11 @@
 	NSString *theSpeech;
 	float speechOffset;
 	NSTimer *tickTimer;
+	bool paused;
 }
 
 @property (nonatomic, retain) NSString *theSpeech;
+@property (nonatomic, assign) bool paused;
 
 - (void)timerTick:(NSTimer*)theTimer;
 
