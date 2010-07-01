@@ -15,5 +15,6 @@
 }
 
 - (IBAction)showInfo;
+- (IBAction)playClicked;
 
 @end

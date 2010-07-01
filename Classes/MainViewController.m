@@ -79,6 +79,12 @@
 	playButton.hidden = false;
 }
 
+- (IBAction)playClicked
+{
+	prompter.paused = false;
+	playButton.hidden = true;
+}
+
 - (void)dealloc {
     [super dealloc];
 }

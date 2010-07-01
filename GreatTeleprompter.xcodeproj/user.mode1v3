@@ -301,7 +301,7 @@
 							<real>238</real>
 						</array>
 						<key>RubberWindowFrame</key>
-						<string>166 206 907 492 0 0 1280 698 </string>
+						<string>155 206 907 492 0 0 1280 698 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXSmartGroupTreeModule</string>
@@ -331,7 +331,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>CE80FB4011DCFD06000CB627</string>
+										<string>CE80FB5211DCFF28000CB627</string>
 										<key>history</key>
 										<array>
 											<string>CE816ABB1180A2AF00533D01</string>
@@ -340,8 +340,8 @@
 											<string>CE80FA7B11DA45DF000CB627</string>
 											<string>CE80FB2911DCED22000CB627</string>
 											<string>CE80FB3511DCF09D000CB627</string>
-											<string>CE80FB3E11DCFD06000CB627</string>
-											<string>CE80FB3F11DCFD06000CB627</string>
+											<string>CE80FB5011DCFF28000CB627</string>
+											<string>CE80FB5111DCFF28000CB627</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -355,7 +355,7 @@
 								<key>Frame</key>
 								<string>{{0, 0}, {647, 322}}</string>
 								<key>RubberWindowFrame</key>
-								<string>166 206 907 492 0 0 1280 698 </string>
+								<string>155 206 907 492 0 0 1280 698 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
@@ -375,7 +375,7 @@
 								<key>Frame</key>
 								<string>{{0, 327}, {647, 124}}</string>
 								<key>RubberWindowFrame</key>
-								<string>166 206 907 492 0 0 1280 698 </string>
+								<string>155 206 907 492 0 0 1280 698 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
@@ -539,7 +539,6 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>CE80FB4111DCFD06000CB627</string>
 		<string>CE80FA9911DB9B10000CB627</string>
 		<string>CE80F97211DA3691000CB627</string>
 		<string>CE80F95F11D4ECA7000CB627</string>
@@ -549,7 +548,7 @@
 		<string>/Users/user/Documents/GreatTeleprompter/GreatTeleprompter.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
-	<string>166 206 907 492 0 0 1280 698 </string>
+	<string>155 206 907 492 0 0 1280 698 </string>
 	<key>WindowToolsV3</key>
 	<array>
 		<dict>
