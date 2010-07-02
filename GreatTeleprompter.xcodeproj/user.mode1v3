@@ -229,6 +229,8 @@
 			<key>Layout</key>
 			<array>
 				<dict>
+					<key>BecomeActive</key>
+					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -276,8 +278,8 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>6</integer>
-									<integer>4</integer>
+									<integer>17</integer>
+									<integer>14</integer>
 									<integer>0</integer>
 								</array>
 							</array>
@@ -312,8 +314,6 @@
 					<key>Dock</key>
 					<array>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -331,7 +331,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>CE80FB5211DCFF28000CB627</string>
+										<string>CE42FF3611DE347A007E5C58</string>
 										<key>history</key>
 										<array>
 											<string>CE816ABB1180A2AF00533D01</string>
@@ -341,7 +341,7 @@
 											<string>CE80FB2911DCED22000CB627</string>
 											<string>CE80FB3511DCF09D000CB627</string>
 											<string>CE80FB5011DCFF28000CB627</string>
-											<string>CE80FB5111DCFF28000CB627</string>
+											<string>CE80FB5A11DE30C4000CB627</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -353,14 +353,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {647, 322}}</string>
+								<string>{{0, 0}, {647, 316}}</string>
 								<key>RubberWindowFrame</key>
 								<string>155 206 907 492 0 0 1280 698 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
-							<string>322pt</string>
+							<string>316pt</string>
 						</dict>
 						<dict>
 							<key>ContentConfiguration</key>
@@ -373,14 +373,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 327}, {647, 124}}</string>
+								<string>{{0, 321}, {647, 130}}</string>
 								<key>RubberWindowFrame</key>
 								<string>155 206 907 492 0 0 1280 698 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
 							<key>Proportion</key>
-							<string>124pt</string>
+							<string>130pt</string>
 						</dict>
 					</array>
 					<key>Proportion</key>
@@ -399,9 +399,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>CE80F95411D4ECA7000CB627</string>
+				<string>CE42FF3711DE347A007E5C58</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>CE80F95511D4ECA7000CB627</string>
+				<string>CE42FF3811DE347A007E5C58</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -539,11 +539,6 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>CE80FA9911DB9B10000CB627</string>
-		<string>CE80F97211DA3691000CB627</string>
-		<string>CE80F95F11D4ECA7000CB627</string>
-		<string>1C78EAAD065D492600B07095</string>
-		<string>1CD10A99069EF8BA00B06720</string>
 		<string>CE97A11111701F6B00329BD5</string>
 		<string>/Users/user/Documents/GreatTeleprompter/GreatTeleprompter.xcodeproj</string>
 	</array>
@@ -586,8 +581,6 @@
 							<string>218pt</string>
 						</dict>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -627,7 +620,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>CE97A11111701F6B00329BD5</string>
-				<string>CE80F95611D4ECA7000CB627</string>
+				<string>CE42FF3911DE347A007E5C58</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>
