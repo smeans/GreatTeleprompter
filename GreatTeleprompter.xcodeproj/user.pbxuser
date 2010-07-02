@@ -29,9 +29,9 @@
 	};
 	289233A90DB2D0DB0083E9F9 /* MainViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {831, 1222}}";
-			sepNavSelRange = "{1897, 0}";
-			sepNavVisRange = "{1459, 515}";
+			sepNavIntBoundsRect = "{{0, 0}, {831, 1196}}";
+			sepNavSelRange = "{1687, 0}";
+			sepNavVisRange = "{1191, 568}";
 			sepNavWindowFrame = "{{15, 135}, {750, 558}}";
 		};
 	};
@@ -115,6 +115,8 @@
 		};
 		perUserProjectItems = {
 			CE42FF3611DE347A007E5C58 /* PBXTextBookmark */ = CE42FF3611DE347A007E5C58 /* PBXTextBookmark */;
+			CE42FF4111DE382E007E5C58 /* PBXTextBookmark */ = CE42FF4111DE382E007E5C58 /* PBXTextBookmark */;
+			CE42FF4211DE382E007E5C58 /* PBXTextBookmark */ = CE42FF4211DE382E007E5C58 /* PBXTextBookmark */;
 			CE80F97711DA37FD000CB627 = CE80F97711DA37FD000CB627 /* PBXTextBookmark */;
 			CE80FA7A11DA45DF000CB627 = CE80FA7A11DA45DF000CB627 /* PBXTextBookmark */;
 			CE80FA7B11DA45DF000CB627 = CE80FA7B11DA45DF000CB627 /* PBXTextBookmark */;
@@ -134,10 +136,30 @@
 		fRef = 289233A90DB2D0DB0083E9F9 /* MainViewController.m */;
 		name = "MainViewController.m: 82";
 		rLen = 0;
-		rLoc = 1897;
+		rLoc = 1838;
 		rType = 0;
 		vrLen = 515;
 		vrLoc = 1459;
+	};
+	CE42FF4111DE382E007E5C58 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 289233A90DB2D0DB0083E9F9 /* MainViewController.m */;
+		name = "MainViewController.m: 74";
+		rLen = 0;
+		rLoc = 1691;
+		rType = 0;
+		vrLen = 515;
+		vrLoc = 1459;
+	};
+	CE42FF4211DE382E007E5C58 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 289233A90DB2D0DB0083E9F9 /* MainViewController.m */;
+		name = "MainViewController.m: 71";
+		rLen = 0;
+		rLoc = 1687;
+		rType = 0;
+		vrLen = 568;
+		vrLoc = 1191;
 	};
 	CE80F97711DA37FD000CB627 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
@@ -204,7 +226,7 @@
 		fRef = 289233A90DB2D0DB0083E9F9 /* MainViewController.m */;
 		name = "MainViewController.m: 75";
 		rLen = 0;
-		rLoc = 1750;
+		rLoc = 1691;
 		rType = 0;
 		vrLen = 565;
 		vrLoc = 1350;
@@ -214,7 +236,7 @@
 		fRef = 289233A90DB2D0DB0083E9F9 /* MainViewController.m */;
 		name = "MainViewController.m: 82";
 		rLen = 0;
-		rLoc = 1897;
+		rLoc = 1838;
 		rType = 0;
 		vrLen = 516;
 		vrLoc = 1458;
