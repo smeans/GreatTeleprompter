@@ -46,6 +46,11 @@
 	[self setNeedsDisplay];
 }
 
+- (void)layoutSubviews
+{
+	[self setNeedsDisplay];
+}
+
 - (void)timerTick:(NSTimer*)theTimer
 {
 	if (!paused) {
