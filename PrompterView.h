@@ -15,6 +15,7 @@
 	float baseWidth;
 	NSTimer *tickTimer;
 	bool paused;
+	CGPoint lastTouchPos;
 }
 
 @property (nonatomic, retain) NSString *theSpeech;

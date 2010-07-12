@@ -60,6 +60,13 @@
 	}
 }
 
+- (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
+{
+	UITouch *t = [touches anyObject];
+	
+	lastTouchPos = [t locationInView:self];
+}
+
 - (void)dealloc {
     [super dealloc];
 }
