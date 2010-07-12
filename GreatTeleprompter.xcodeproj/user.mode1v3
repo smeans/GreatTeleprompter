@@ -276,8 +276,8 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>3</integer>
-									<integer>1</integer>
+									<integer>9</integer>
+									<integer>7</integer>
 									<integer>0</integer>
 								</array>
 							</array>
@@ -319,7 +319,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>PrompterView.m</string>
+								<string>FlipsideViewController.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -327,21 +327,21 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>PrompterView.m</string>
+										<string>FlipsideViewController.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>CE42FF7811DE52D0007E5C58</string>
+										<string>CE9963FF11EB5621000266E6</string>
 										<key>history</key>
 										<array>
-											<string>CE816ABB1180A2AF00533D01</string>
 											<string>CE80F97711DA37FD000CB627</string>
 											<string>CE80FA7A11DA45DF000CB627</string>
 											<string>CE80FA7B11DA45DF000CB627</string>
 											<string>CE80FB2911DCED22000CB627</string>
 											<string>CE42FF6911DE4DD4007E5C58</string>
 											<string>CE42FF6A11DE4DD4007E5C58</string>
-											<string>CE42FF6B11DE4DD4007E5C58</string>
+											<string>CE42FF8211DE588D007E5C58</string>
+											<string>CE2F6A0411DE8E4E0008D91D</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -353,14 +353,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {647, 316}}</string>
+								<string>{{0, 0}, {647, 304}}</string>
 								<key>RubberWindowFrame</key>
 								<string>155 206 907 492 0 0 1280 698 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
-							<string>316pt</string>
+							<string>304pt</string>
 						</dict>
 						<dict>
 							<key>ContentConfiguration</key>
@@ -373,14 +373,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 321}, {647, 130}}</string>
+								<string>{{0, 309}, {647, 142}}</string>
 								<key>RubberWindowFrame</key>
 								<string>155 206 907 492 0 0 1280 698 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
 							<key>Proportion</key>
-							<string>130pt</string>
+							<string>142pt</string>
 						</dict>
 					</array>
 					<key>Proportion</key>
@@ -399,9 +399,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>CE42FF3711DE347A007E5C58</string>
+				<string>CE99640011EB5621000266E6</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>CE42FF3811DE347A007E5C58</string>
+				<string>CE99640111EB5621000266E6</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -539,11 +539,6 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>CE42FF5C11DE4D28007E5C58</string>
-		<string>CE42FF4B11DE382E007E5C58</string>
-		<string>CE42FF4C11DE382E007E5C58</string>
-		<string>1C78EAAD065D492600B07095</string>
-		<string>1CD10A99069EF8BA00B06720</string>
 		<string>CE97A11111701F6B00329BD5</string>
 		<string>/Users/user/Documents/GreatTeleprompter/GreatTeleprompter.xcodeproj</string>
 	</array>
@@ -625,7 +620,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>CE97A11111701F6B00329BD5</string>
-				<string>CE42FF3911DE347A007E5C58</string>
+				<string>CE99640211EB5621000266E6</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>

@@ -12,6 +12,7 @@
 @interface PrompterView : UIView {
 	NSString *theSpeech;
 	float speechOffset;
+	float baseWidth;
 	NSTimer *tickTimer;
 	bool paused;
 }

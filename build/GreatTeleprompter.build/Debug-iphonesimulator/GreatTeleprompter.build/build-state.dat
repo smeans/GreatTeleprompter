@@ -1,7 +1,7 @@
 TGreatTeleprompter
 v7
 r0
-t299783332.227821
+t300636848.443492
 cCheck dependencies
 cProcessInfoPlistFile /Users/user/Documents/GreatTeleprompter/build/Debug-iphonesimulator/GreatTeleprompter.app/Info.plist GreatTeleprompter-Info.plist
 cCompileXIB /Users/user/Documents/GreatTeleprompter/FlipsideView.xib
@@ -60,8 +60,8 @@ s592
 i<UIKit/UIKit.h>
 
 N/Users/user/Documents/GreatTeleprompter/Classes/FlipsideViewController.m
-c000000004C2E1D23000000000000041F
-t1278090531
+c000000004C2E1FB2000000000000041F
+t1278091186
 s1055
 i"GreatTeleprompterAppDelegate.h"
 i"FlipsideViewController.h"
@@ -122,23 +122,23 @@ t1277996138
 s6002
 
 N/Users/user/Documents/GreatTeleprompter/PrompterView.h
-c000000004C2CB56000000000000001C8
-t1277998432
-s456
+c000000004C3B233000000000000001DA
+t1278944048
+s474
 i<UIKit/UIKit.h>
 
 N/Users/user/Documents/GreatTeleprompter/PrompterView.m
-c000000004C2E1B4F0000000000000534
-t1278090063
-s1332
+c000000004C3B232E0000000000000580
+t1278944046
+s1408
 i"PrompterView.h"
 
 N/Users/user/Documents/GreatTeleprompter/build/Debug-iphonesimulator/GreatTeleprompter.app
-t1278090532
+t1278944048
 s306
 
 N/Users/user/Documents/GreatTeleprompter/build/Debug-iphonesimulator/GreatTeleprompter.app.dSYM
-t1278090532
+t1278944048
 s102
 
 N/Users/user/Documents/GreatTeleprompter/build/Debug-iphonesimulator/GreatTeleprompter.app/FlipsideView.nib
@@ -146,7 +146,7 @@ t1270870087
 s2902
 
 N/Users/user/Documents/GreatTeleprompter/build/Debug-iphonesimulator/GreatTeleprompter.app/GreatTeleprompter
-t1278090532
+t1278944048
 s29048
 
 N/Users/user/Documents/GreatTeleprompter/build/Debug-iphonesimulator/GreatTeleprompter.app/Info.plist
@@ -170,7 +170,7 @@ t1278004435
 s6002
 
 N/Users/user/Documents/GreatTeleprompter/build/GreatTeleprompter.build/Debug-iphonesimulator/GreatTeleprompter.build/Objects-normal/i386/FlipsideViewController.o
-t1278090532
+t1278106621
 s39060
 
 N/Users/user/Documents/GreatTeleprompter/build/GreatTeleprompter.build/Debug-iphonesimulator/GreatTeleprompter.build/Objects-normal/i386/GreatTeleprompter.LinkFileList
@@ -179,16 +179,16 @@ t1276270060
 s779
 
 N/Users/user/Documents/GreatTeleprompter/build/GreatTeleprompter.build/Debug-iphonesimulator/GreatTeleprompter.build/Objects-normal/i386/GreatTeleprompterAppDelegate.o
-t1278003144
-s41928
+t1278944048
+s41948
 
 N/Users/user/Documents/GreatTeleprompter/build/GreatTeleprompter.build/Debug-iphonesimulator/GreatTeleprompter.build/Objects-normal/i386/MainViewController.o
-t1278083246
-s41460
+t1278944048
+s41480
 
 N/Users/user/Documents/GreatTeleprompter/build/GreatTeleprompter.build/Debug-iphonesimulator/GreatTeleprompter.build/Objects-normal/i386/PrompterView.o
-t1278090349
-s17752
+t1278944048
+s18048
 
 N/Users/user/Documents/GreatTeleprompter/build/GreatTeleprompter.build/Debug-iphonesimulator/GreatTeleprompter.build/Objects-normal/i386/main.o
 t1270435821
@@ -211,11 +211,11 @@ s909
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies299783332#299783332#0(0"0(0#1#0"4300911832#0"0#
+lSLF07#2@18"Check dependencies300636848#300636848#0(0"0(0#1#0"4300911832#0"0#
 
 CCompileC build/GreatTeleprompter.build/Debug-iphonesimulator/GreatTeleprompter.build/Objects-normal/i386/FlipsideViewController.o /Users/user/Documents/GreatTeleprompter/Classes/FlipsideViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s299783332.041997
-e299783332.194456
+s299799421.404666
+e299799421.502152
 r1
 xCompileC
 xbuild/GreatTeleprompter.build/Debug-iphonesimulator/GreatTeleprompter.build/Objects-normal/i386/FlipsideViewController.o
@@ -224,11 +224,11 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@80"Compile /Users/user/Documents/GreatTeleprompter/Classes/FlipsideViewController.m299783332#299783332#0(0"0(0#0#72"/Users/user/Documents/GreatTeleprompter/Classes/FlipsideViewController.m4300911832#2114"    cd /Users/user/Documents/GreatTeleprompter    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/user/Documents/GreatTeleprompter/build/GreatTeleprompter.build/Debug-iphonesimulator/GreatTeleprompter.build/GreatTeleprompter-generated-files.hmap -I/Users/user/Documents/GreatTeleprompter/build/GreatTeleprompter.build/Debug-iphonesimulator/GreatTeleprompter.build/GreatTeleprompter-own-target-headers.hmap -I/Users/user/Documents/GreatTeleprompter/build/GreatTeleprompter.build/Debug-iphonesimulator/GreatTeleprompter.build/GreatTeleprompter-all-target-headers.hmap -iquote /Users/user/Documents/GreatTeleprompter/build/GreatTeleprompter.build/Debug-iphonesimulator/GreatTeleprompter.build/GreatTeleprompter-project-headers.hmap -F/Users/user/Documents/GreatTeleprompter/build/Debug-iphonesimulator -I/Users/user/Documents/GreatTeleprompter/build/Debug-iphonesimulator/include -I/Users/user/Documents/GreatTeleprompter/build/GreatTeleprompter.build/Debug-iphonesimulator/GreatTeleprompter.build/DerivedSources/i386 -I/Users/user/Documents/GreatTeleprompter/build/GreatTeleprompter.build/Debug-iphonesimulator/GreatTeleprompter.build/DerivedSources -include /var/folders/e7/e7sh5m+3FK4ZjvMHz8yzlk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GreatTeleprompter_Prefix-ehksdtbvqghxtrbrzihrjdlgosiu/GreatTeleprompter_Prefix.pch -c /Users/user/Documents/GreatTeleprompter/Classes/FlipsideViewController.m -o /Users/user/Documents/GreatTeleprompter/build/GreatTeleprompter.build/Debug-iphonesimulator/GreatTeleprompter.build/Objects-normal/i386/FlipsideViewController.o0#
+lSLF07#2@80"Compile /Users/user/Documents/GreatTeleprompter/Classes/FlipsideViewController.m299799421#299799421#0(0"0(0#0#72"/Users/user/Documents/GreatTeleprompter/Classes/FlipsideViewController.m8243113905953600512#2114"    cd /Users/user/Documents/GreatTeleprompter    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/user/Documents/GreatTeleprompter/build/GreatTeleprompter.build/Debug-iphonesimulator/GreatTeleprompter.build/GreatTeleprompter-generated-files.hmap -I/Users/user/Documents/GreatTeleprompter/build/GreatTeleprompter.build/Debug-iphonesimulator/GreatTeleprompter.build/GreatTeleprompter-own-target-headers.hmap -I/Users/user/Documents/GreatTeleprompter/build/GreatTeleprompter.build/Debug-iphonesimulator/GreatTeleprompter.build/GreatTeleprompter-all-target-headers.hmap -iquote /Users/user/Documents/GreatTeleprompter/build/GreatTeleprompter.build/Debug-iphonesimulator/GreatTeleprompter.build/GreatTeleprompter-project-headers.hmap -F/Users/user/Documents/GreatTeleprompter/build/Debug-iphonesimulator -I/Users/user/Documents/GreatTeleprompter/build/Debug-iphonesimulator/include -I/Users/user/Documents/GreatTeleprompter/build/GreatTeleprompter.build/Debug-iphonesimulator/GreatTeleprompter.build/DerivedSources/i386 -I/Users/user/Documents/GreatTeleprompter/build/GreatTeleprompter.build/Debug-iphonesimulator/GreatTeleprompter.build/DerivedSources -include /var/folders/e7/e7sh5m+3FK4ZjvMHz8yzlk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GreatTeleprompter_Prefix-ehksdtbvqghxtrbrzihrjdlgosiu/GreatTeleprompter_Prefix.pch -c /Users/user/Documents/GreatTeleprompter/Classes/FlipsideViewController.m -o /Users/user/Documents/GreatTeleprompter/build/GreatTeleprompter.build/Debug-iphonesimulator/GreatTeleprompter.build/Objects-normal/i386/FlipsideViewController.o0#
 
 CCompileC build/GreatTeleprompter.build/Debug-iphonesimulator/GreatTeleprompter.build/Objects-normal/i386/GreatTeleprompterAppDelegate.o /Users/user/Documents/GreatTeleprompter/Classes/GreatTeleprompterAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s299695944.752397
-e299695944.827340
+s300636848.265472
+e300636848.363495
 r1
 xCompileC
 xbuild/GreatTeleprompter.build/Debug-iphonesimulator/GreatTeleprompter.build/Objects-normal/i386/GreatTeleprompterAppDelegate.o
@@ -237,11 +237,11 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@86"Compile /Users/user/Documents/GreatTeleprompter/Classes/GreatTeleprompterAppDelegate.m299695944#299695944#0(0"0(0#0#78"/Users/user/Documents/GreatTeleprompter/Classes/GreatTeleprompterAppDelegate.m4300911832#2126"    cd /Users/user/Documents/GreatTeleprompter    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/user/Documents/GreatTeleprompter/build/GreatTeleprompter.build/Debug-iphonesimulator/GreatTeleprompter.build/GreatTeleprompter-generated-files.hmap -I/Users/user/Documents/GreatTeleprompter/build/GreatTeleprompter.build/Debug-iphonesimulator/GreatTeleprompter.build/GreatTeleprompter-own-target-headers.hmap -I/Users/user/Documents/GreatTeleprompter/build/GreatTeleprompter.build/Debug-iphonesimulator/GreatTeleprompter.build/GreatTeleprompter-all-target-headers.hmap -iquote /Users/user/Documents/GreatTeleprompter/build/GreatTeleprompter.build/Debug-iphonesimulator/GreatTeleprompter.build/GreatTeleprompter-project-headers.hmap -F/Users/user/Documents/GreatTeleprompter/build/Debug-iphonesimulator -I/Users/user/Documents/GreatTeleprompter/build/Debug-iphonesimulator/include -I/Users/user/Documents/GreatTeleprompter/build/GreatTeleprompter.build/Debug-iphonesimulator/GreatTeleprompter.build/DerivedSources/i386 -I/Users/user/Documents/GreatTeleprompter/build/GreatTeleprompter.build/Debug-iphonesimulator/GreatTeleprompter.build/DerivedSources -include /var/folders/e7/e7sh5m+3FK4ZjvMHz8yzlk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GreatTeleprompter_Prefix-ehksdtbvqghxtrbrzihrjdlgosiu/GreatTeleprompter_Prefix.pch -c /Users/user/Documents/GreatTeleprompter/Classes/GreatTeleprompterAppDelegate.m -o /Users/user/Documents/GreatTeleprompter/build/GreatTeleprompter.build/Debug-iphonesimulator/GreatTeleprompter.build/Objects-normal/i386/GreatTeleprompterAppDelegate.o0#
+lSLF07#2@86"Compile /Users/user/Documents/GreatTeleprompter/Classes/GreatTeleprompterAppDelegate.m300636848#300636848#0(0"0(0#0#78"/Users/user/Documents/GreatTeleprompter/Classes/GreatTeleprompterAppDelegate.m4300911832#2126"    cd /Users/user/Documents/GreatTeleprompter    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/user/Documents/GreatTeleprompter/build/GreatTeleprompter.build/Debug-iphonesimulator/GreatTeleprompter.build/GreatTeleprompter-generated-files.hmap -I/Users/user/Documents/GreatTeleprompter/build/GreatTeleprompter.build/Debug-iphonesimulator/GreatTeleprompter.build/GreatTeleprompter-own-target-headers.hmap -I/Users/user/Documents/GreatTeleprompter/build/GreatTeleprompter.build/Debug-iphonesimulator/GreatTeleprompter.build/GreatTeleprompter-all-target-headers.hmap -iquote /Users/user/Documents/GreatTeleprompter/build/GreatTeleprompter.build/Debug-iphonesimulator/GreatTeleprompter.build/GreatTeleprompter-project-headers.hmap -F/Users/user/Documents/GreatTeleprompter/build/Debug-iphonesimulator -I/Users/user/Documents/GreatTeleprompter/build/Debug-iphonesimulator/include -I/Users/user/Documents/GreatTeleprompter/build/GreatTeleprompter.build/Debug-iphonesimulator/GreatTeleprompter.build/DerivedSources/i386 -I/Users/user/Documents/GreatTeleprompter/build/GreatTeleprompter.build/Debug-iphonesimulator/GreatTeleprompter.build/DerivedSources -include /var/folders/e7/e7sh5m+3FK4ZjvMHz8yzlk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GreatTeleprompter_Prefix-ehksdtbvqghxtrbrzihrjdlgosiu/GreatTeleprompter_Prefix.pch -c /Users/user/Documents/GreatTeleprompter/Classes/GreatTeleprompterAppDelegate.m -o /Users/user/Documents/GreatTeleprompter/build/GreatTeleprompter.build/Debug-iphonesimulator/GreatTeleprompter.build/Objects-normal/i386/GreatTeleprompterAppDelegate.o0#
 
 CCompileC build/GreatTeleprompter.build/Debug-iphonesimulator/GreatTeleprompter.build/Objects-normal/i386/MainViewController.o /Users/user/Documents/GreatTeleprompter/Classes/MainViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s299776046.000364
-e299776046.103396
+s300636848.266387
+e300636848.359436
 r1
 xCompileC
 xbuild/GreatTeleprompter.build/Debug-iphonesimulator/GreatTeleprompter.build/Objects-normal/i386/MainViewController.o
@@ -250,11 +250,11 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@76"Compile /Users/user/Documents/GreatTeleprompter/Classes/MainViewController.m299776046#299776046#0(0"0(0#0#68"/Users/user/Documents/GreatTeleprompter/Classes/MainViewController.m8234602612212916224#2106"    cd /Users/user/Documents/GreatTeleprompter    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/user/Documents/GreatTeleprompter/build/GreatTeleprompter.build/Debug-iphonesimulator/GreatTeleprompter.build/GreatTeleprompter-generated-files.hmap -I/Users/user/Documents/GreatTeleprompter/build/GreatTeleprompter.build/Debug-iphonesimulator/GreatTeleprompter.build/GreatTeleprompter-own-target-headers.hmap -I/Users/user/Documents/GreatTeleprompter/build/GreatTeleprompter.build/Debug-iphonesimulator/GreatTeleprompter.build/GreatTeleprompter-all-target-headers.hmap -iquote /Users/user/Documents/GreatTeleprompter/build/GreatTeleprompter.build/Debug-iphonesimulator/GreatTeleprompter.build/GreatTeleprompter-project-headers.hmap -F/Users/user/Documents/GreatTeleprompter/build/Debug-iphonesimulator -I/Users/user/Documents/GreatTeleprompter/build/Debug-iphonesimulator/include -I/Users/user/Documents/GreatTeleprompter/build/GreatTeleprompter.build/Debug-iphonesimulator/GreatTeleprompter.build/DerivedSources/i386 -I/Users/user/Documents/GreatTeleprompter/build/GreatTeleprompter.build/Debug-iphonesimulator/GreatTeleprompter.build/DerivedSources -include /var/folders/e7/e7sh5m+3FK4ZjvMHz8yzlk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GreatTeleprompter_Prefix-ehksdtbvqghxtrbrzihrjdlgosiu/GreatTeleprompter_Prefix.pch -c /Users/user/Documents/GreatTeleprompter/Classes/MainViewController.m -o /Users/user/Documents/GreatTeleprompter/build/GreatTeleprompter.build/Debug-iphonesimulator/GreatTeleprompter.build/Objects-normal/i386/MainViewController.o0#
+lSLF07#2@76"Compile /Users/user/Documents/GreatTeleprompter/Classes/MainViewController.m300636848#300636848#0(0"0(0#0#68"/Users/user/Documents/GreatTeleprompter/Classes/MainViewController.m4300911832#2106"    cd /Users/user/Documents/GreatTeleprompter    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/user/Documents/GreatTeleprompter/build/GreatTeleprompter.build/Debug-iphonesimulator/GreatTeleprompter.build/GreatTeleprompter-generated-files.hmap -I/Users/user/Documents/GreatTeleprompter/build/GreatTeleprompter.build/Debug-iphonesimulator/GreatTeleprompter.build/GreatTeleprompter-own-target-headers.hmap -I/Users/user/Documents/GreatTeleprompter/build/GreatTeleprompter.build/Debug-iphonesimulator/GreatTeleprompter.build/GreatTeleprompter-all-target-headers.hmap -iquote /Users/user/Documents/GreatTeleprompter/build/GreatTeleprompter.build/Debug-iphonesimulator/GreatTeleprompter.build/GreatTeleprompter-project-headers.hmap -F/Users/user/Documents/GreatTeleprompter/build/Debug-iphonesimulator -I/Users/user/Documents/GreatTeleprompter/build/Debug-iphonesimulator/include -I/Users/user/Documents/GreatTeleprompter/build/GreatTeleprompter.build/Debug-iphonesimulator/GreatTeleprompter.build/DerivedSources/i386 -I/Users/user/Documents/GreatTeleprompter/build/GreatTeleprompter.build/Debug-iphonesimulator/GreatTeleprompter.build/DerivedSources -include /var/folders/e7/e7sh5m+3FK4ZjvMHz8yzlk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GreatTeleprompter_Prefix-ehksdtbvqghxtrbrzihrjdlgosiu/GreatTeleprompter_Prefix.pch -c /Users/user/Documents/GreatTeleprompter/Classes/MainViewController.m -o /Users/user/Documents/GreatTeleprompter/build/GreatTeleprompter.build/Debug-iphonesimulator/GreatTeleprompter.build/Objects-normal/i386/MainViewController.o0#
 
 CCompileC build/GreatTeleprompter.build/Debug-iphonesimulator/GreatTeleprompter.build/Objects-normal/i386/PrompterView.o /Users/user/Documents/GreatTeleprompter/PrompterView.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s299783148.942827
-e299783149.037625
+s300636848.359605
+e300636848.409643
 r1
 xCompileC
 xbuild/GreatTeleprompter.build/Debug-iphonesimulator/GreatTeleprompter.build/Objects-normal/i386/PrompterView.o
@@ -263,7 +263,7 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@62"Compile /Users/user/Documents/GreatTeleprompter/PrompterView.m299783148#299783149#0(0"0(0#0#54"/Users/user/Documents/GreatTeleprompter/PrompterView.m4300911832#2086"    cd /Users/user/Documents/GreatTeleprompter    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/user/Documents/GreatTeleprompter/build/GreatTeleprompter.build/Debug-iphonesimulator/GreatTeleprompter.build/GreatTeleprompter-generated-files.hmap -I/Users/user/Documents/GreatTeleprompter/build/GreatTeleprompter.build/Debug-iphonesimulator/GreatTeleprompter.build/GreatTeleprompter-own-target-headers.hmap -I/Users/user/Documents/GreatTeleprompter/build/GreatTeleprompter.build/Debug-iphonesimulator/GreatTeleprompter.build/GreatTeleprompter-all-target-headers.hmap -iquote /Users/user/Documents/GreatTeleprompter/build/GreatTeleprompter.build/Debug-iphonesimulator/GreatTeleprompter.build/GreatTeleprompter-project-headers.hmap -F/Users/user/Documents/GreatTeleprompter/build/Debug-iphonesimulator -I/Users/user/Documents/GreatTeleprompter/build/Debug-iphonesimulator/include -I/Users/user/Documents/GreatTeleprompter/build/GreatTeleprompter.build/Debug-iphonesimulator/GreatTeleprompter.build/DerivedSources/i386 -I/Users/user/Documents/GreatTeleprompter/build/GreatTeleprompter.build/Debug-iphonesimulator/GreatTeleprompter.build/DerivedSources -include /var/folders/e7/e7sh5m+3FK4ZjvMHz8yzlk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GreatTeleprompter_Prefix-ehksdtbvqghxtrbrzihrjdlgosiu/GreatTeleprompter_Prefix.pch -c /Users/user/Documents/GreatTeleprompter/PrompterView.m -o /Users/user/Documents/GreatTeleprompter/build/GreatTeleprompter.build/Debug-iphonesimulator/GreatTeleprompter.build/Objects-normal/i386/PrompterView.o0#
+lSLF07#2@62"Compile /Users/user/Documents/GreatTeleprompter/PrompterView.m300636848#300636848#0(0"0(0#0#54"/Users/user/Documents/GreatTeleprompter/PrompterView.m4300911832#2086"    cd /Users/user/Documents/GreatTeleprompter    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/user/Documents/GreatTeleprompter/build/GreatTeleprompter.build/Debug-iphonesimulator/GreatTeleprompter.build/GreatTeleprompter-generated-files.hmap -I/Users/user/Documents/GreatTeleprompter/build/GreatTeleprompter.build/Debug-iphonesimulator/GreatTeleprompter.build/GreatTeleprompter-own-target-headers.hmap -I/Users/user/Documents/GreatTeleprompter/build/GreatTeleprompter.build/Debug-iphonesimulator/GreatTeleprompter.build/GreatTeleprompter-all-target-headers.hmap -iquote /Users/user/Documents/GreatTeleprompter/build/GreatTeleprompter.build/Debug-iphonesimulator/GreatTeleprompter.build/GreatTeleprompter-project-headers.hmap -F/Users/user/Documents/GreatTeleprompter/build/Debug-iphonesimulator -I/Users/user/Documents/GreatTeleprompter/build/Debug-iphonesimulator/include -I/Users/user/Documents/GreatTeleprompter/build/GreatTeleprompter.build/Debug-iphonesimulator/GreatTeleprompter.build/DerivedSources/i386 -I/Users/user/Documents/GreatTeleprompter/build/GreatTeleprompter.build/Debug-iphonesimulator/GreatTeleprompter.build/DerivedSources -include /var/folders/e7/e7sh5m+3FK4ZjvMHz8yzlk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GreatTeleprompter_Prefix-ehksdtbvqghxtrbrzihrjdlgosiu/GreatTeleprompter_Prefix.pch -c /Users/user/Documents/GreatTeleprompter/PrompterView.m -o /Users/user/Documents/GreatTeleprompter/build/GreatTeleprompter.build/Debug-iphonesimulator/GreatTeleprompter.build/Objects-normal/i386/PrompterView.o0#
 
 CCompileC build/GreatTeleprompter.build/Debug-iphonesimulator/GreatTeleprompter.build/Objects-normal/i386/main.o /Users/user/Documents/GreatTeleprompter/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s292128620.924272
@@ -312,23 +312,23 @@ xPlayButton.png
 lSLF07#2@19"Copy PlayButton.png299697235#299697235#0(0"0(0#0#54"/Users/user/Documents/GreatTeleprompter/PlayButton.png4300911832#471"    cd /Users/user/Documents/GreatTeleprompter    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/user/Documents/GreatTeleprompter/PlayButton.png /Users/user/Documents/GreatTeleprompter/build/Debug-iphonesimulator/GreatTeleprompter.app0#
 
 CGenerateDSYMFile /Users/user/Documents/GreatTeleprompter/build/Debug-iphonesimulator/GreatTeleprompter.app.dSYM /Users/user/Documents/GreatTeleprompter/build/Debug-iphonesimulator/GreatTeleprompter.app/GreatTeleprompter
-s299783332.212812
-e299783332.225740
+s300636848.426736
+e300636848.441206
 r1
 xGenerateDSYMFile
 x/Users/user/Documents/GreatTeleprompter/build/Debug-iphonesimulator/GreatTeleprompter.app.dSYM
 x/Users/user/Documents/GreatTeleprompter/build/Debug-iphonesimulator/GreatTeleprompter.app/GreatTeleprompter
-lSLF07#2@139"GenerateDSYMFile build/Debug-iphonesimulator/GreatTeleprompter.app.dSYM build/Debug-iphonesimulator/GreatTeleprompter.app/GreatTeleprompter299783332#299783332#0(0"0(0#0#107"/Users/user/Documents/GreatTeleprompter/build/Debug-iphonesimulator/GreatTeleprompter.app/GreatTeleprompter4300911832#416"    cd /Users/user/Documents/GreatTeleprompter    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/user/Documents/GreatTeleprompter/build/Debug-iphonesimulator/GreatTeleprompter.app/GreatTeleprompter -o /Users/user/Documents/GreatTeleprompter/build/Debug-iphonesimulator/GreatTeleprompter.app.dSYM0#
+lSLF07#2@139"GenerateDSYMFile build/Debug-iphonesimulator/GreatTeleprompter.app.dSYM build/Debug-iphonesimulator/GreatTeleprompter.app/GreatTeleprompter300636848#300636848#0(0"0(0#0#107"/Users/user/Documents/GreatTeleprompter/build/Debug-iphonesimulator/GreatTeleprompter.app/GreatTeleprompter4300911832#416"    cd /Users/user/Documents/GreatTeleprompter    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/user/Documents/GreatTeleprompter/build/Debug-iphonesimulator/GreatTeleprompter.app/GreatTeleprompter -o /Users/user/Documents/GreatTeleprompter/build/Debug-iphonesimulator/GreatTeleprompter.app.dSYM0#
 
 CLd /Users/user/Documents/GreatTeleprompter/build/Debug-iphonesimulator/GreatTeleprompter.app/GreatTeleprompter normal i386
-s299783332.194526
-e299783332.212709
+s300636848.409721
+e300636848.426643
 r1
 xLd
 x/Users/user/Documents/GreatTeleprompter/build/Debug-iphonesimulator/GreatTeleprompter.app/GreatTeleprompter
 xnormal
 xi386
-lSLF07#2@112"Link /Users/user/Documents/GreatTeleprompter/build/Debug-iphonesimulator/GreatTeleprompter.app/GreatTeleprompter299783332#299783332#0(0"0(0#0#0"4300911832#919"    cd /Users/user/Documents/GreatTeleprompter    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -L/Users/user/Documents/GreatTeleprompter/build/Debug-iphonesimulator -F/Users/user/Documents/GreatTeleprompter/build/Debug-iphonesimulator -filelist /Users/user/Documents/GreatTeleprompter/build/GreatTeleprompter.build/Debug-iphonesimulator/GreatTeleprompter.build/Objects-normal/i386/GreatTeleprompter.LinkFileList -mmacosx-version-min=10.5 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/user/Documents/GreatTeleprompter/build/Debug-iphonesimulator/GreatTeleprompter.app/GreatTeleprompter0#
+lSLF07#2@112"Link /Users/user/Documents/GreatTeleprompter/build/Debug-iphonesimulator/GreatTeleprompter.app/GreatTeleprompter300636848#300636848#0(0"0(0#0#0"4300911832#919"    cd /Users/user/Documents/GreatTeleprompter    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -L/Users/user/Documents/GreatTeleprompter/build/Debug-iphonesimulator -F/Users/user/Documents/GreatTeleprompter/build/Debug-iphonesimulator -filelist /Users/user/Documents/GreatTeleprompter/build/GreatTeleprompter.build/Debug-iphonesimulator/GreatTeleprompter.build/Objects-normal/i386/GreatTeleprompter.LinkFileList -mmacosx-version-min=10.5 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/user/Documents/GreatTeleprompter/build/Debug-iphonesimulator/GreatTeleprompter.app/GreatTeleprompter0#
 
 CProcessInfoPlistFile /Users/user/Documents/GreatTeleprompter/build/Debug-iphonesimulator/GreatTeleprompter.app/Info.plist GreatTeleprompter-Info.plist
 s292128619.638270
@@ -353,10 +353,10 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@39"Precompile GreatTeleprompter_Prefix.pch292128620#292128620#0(0"0(0#0#68"/Users/user/Documents/GreatTeleprompter/GreatTeleprompter_Prefix.pch4300911832#1951"    cd /Users/user/Documents/GreatTeleprompter    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/user/Documents/GreatTeleprompter/build/GreatTeleprompter.build/Debug-iphonesimulator/GreatTeleprompter.build/GreatTeleprompter-generated-files.hmap -I/Users/user/Documents/GreatTeleprompter/build/GreatTeleprompter.build/Debug-iphonesimulator/GreatTeleprompter.build/GreatTeleprompter-own-target-headers.hmap -I/Users/user/Documents/GreatTeleprompter/build/GreatTeleprompter.build/Debug-iphonesimulator/GreatTeleprompter.build/GreatTeleprompter-all-target-headers.hmap -iquote /Users/user/Documents/GreatTeleprompter/build/GreatTeleprompter.build/Debug-iphonesimulator/GreatTeleprompter.build/GreatTeleprompter-project-headers.hmap -F/Users/user/Documents/GreatTeleprompter/build/Debug-iphonesimulator -I/Users/user/Documents/GreatTeleprompter/build/Debug-iphonesimulator/include -I/Users/user/Documents/GreatTeleprompter/build/GreatTeleprompter.build/Debug-iphonesimulator/GreatTeleprompter.build/DerivedSources/i386 -I/Users/user/Documents/GreatTeleprompter/build/GreatTeleprompter.build/Debug-iphonesimulator/GreatTeleprompter.build/DerivedSources -c /Users/user/Documents/GreatTeleprompter/GreatTeleprompter_Prefix.pch -o /var/folders/e7/e7sh5m+3FK4ZjvMHz8yzlk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GreatTeleprompter_Prefix-ehksdtbvqghxtrbrzihrjdlgosiu/GreatTeleprompter_Prefix.pch.gch0#
 
 CTouch /Users/user/Documents/GreatTeleprompter/build/Debug-iphonesimulator/GreatTeleprompter.app
-s299783332.225809
-e299783332.227791
+s300636848.441273
+e300636848.443461
 r1
 xTouch
 x/Users/user/Documents/GreatTeleprompter/build/Debug-iphonesimulator/GreatTeleprompter.app
-lSLF07#2@95"Touch /Users/user/Documents/GreatTeleprompter/build/Debug-iphonesimulator/GreatTeleprompter.app299783332#299783332#0(0"0(0#0#0"4300911832#290"    cd /Users/user/Documents/GreatTeleprompter    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/user/Documents/GreatTeleprompter/build/Debug-iphonesimulator/GreatTeleprompter.app0#
+lSLF07#2@95"Touch /Users/user/Documents/GreatTeleprompter/build/Debug-iphonesimulator/GreatTeleprompter.app300636848#300636848#0(0"0(0#0#0"4300911832#290"    cd /Users/user/Documents/GreatTeleprompter    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/user/Documents/GreatTeleprompter/build/Debug-iphonesimulator/GreatTeleprompter.app0#
 
