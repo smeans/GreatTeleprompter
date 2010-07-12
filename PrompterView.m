@@ -62,9 +62,24 @@
 
 - (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
 {
+	[super touchesBegan:touches withEvent:event];
+	
 	UITouch *t = [touches anyObject];
 	
 	lastTouchPos = [t locationInView:self];
+}
+
+- (void)touchesMoved:(NSSet *)touches withEvent:(UIEvent *)event
+{
+	UITouch *t = [touches anyObject];
+	
+	CGPoint newTouchPos = [t locationInView:self];
+	
+	speechOffset += newTouchPos.y - lastTouchPos.y;
+	
+	lastTouchPos = newTouchPos;
+	
+	[self setNeedsLayout];
 }
 
 - (void)dealloc {
