@@ -67,6 +67,7 @@
 	UITouch *t = [touches anyObject];
 	
 	lastTouchPos = [t locationInView:self];
+	lastTouchTime = CACurrentMediaTime();
 }
 
 - (void)touchesMoved:(NSSet *)touches withEvent:(UIEvent *)event
@@ -75,9 +76,10 @@
 	
 	CGPoint newTouchPos = [t locationInView:self];
 	
-	speechOffset += newTouchPos.y - lastTouchPos.y;
+	speechOffset -= newTouchPos.y - lastTouchPos.y;
 	
 	lastTouchPos = newTouchPos;
+	lastTouchTime = CACurrentMediaTime();
 	
 	[self setNeedsLayout];
 }

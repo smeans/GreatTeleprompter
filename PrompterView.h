@@ -16,6 +16,7 @@
 	NSTimer *tickTimer;
 	bool paused;
 	CGPoint lastTouchPos;
+	CFTimeInterval lastTouchTime;
 }
 
 @property (nonatomic, retain) NSString *theSpeech;
