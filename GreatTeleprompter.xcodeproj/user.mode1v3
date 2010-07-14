@@ -276,13 +276,12 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>3</integer>
-									<integer>1</integer>
+									<integer>20</integer>
 									<integer>0</integer>
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
-							<string>{{0, 0}, {238, 433}}</string>
+							<string>{{0, 71}, {238, 433}}</string>
 						</dict>
 						<key>PBXTopSmartGroupGIDs</key>
 						<array/>
@@ -331,7 +330,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>CE97388211EDE8A900325D1D</string>
+										<string>CE97389211EDEAFD00325D1D</string>
 										<key>history</key>
 										<array>
 											<string>CE80F97711DA37FD000CB627</string>
@@ -539,12 +538,13 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
+		<string>CE97389311EDEAFD00325D1D</string>
 		<string>CE97386A11EDE66000325D1D</string>
 		<string>CE97386B11EDE66000325D1D</string>
 		<string>1C78EAAD065D492600B07095</string>
 		<string>1CD10A99069EF8BA00B06720</string>
-		<string>/Users/user/Documents/GreatTeleprompter/GreatTeleprompter.xcodeproj</string>
 		<string>CE97A11111701F6B00329BD5</string>
+		<string>/Users/user/Documents/GreatTeleprompter/GreatTeleprompter.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
 	<string>155 206 907 492 0 0 1280 698 </string>
@@ -639,7 +639,7 @@
 			<key>WindowToolGUID</key>
 			<string>CE97A11111701F6B00329BD5</string>
 			<key>WindowToolIsVisible</key>
-			<true/>
+			<false/>
 		</dict>
 		<dict>
 			<key>FirstTimeWindowDisplayed</key>
