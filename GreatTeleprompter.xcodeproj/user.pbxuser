@@ -144,6 +144,9 @@
 			CED0961E12104660005C9F53 /* PBXTextBookmark */ = CED0961E12104660005C9F53 /* PBXTextBookmark */;
 			CED0961F12104660005C9F53 /* PBXTextBookmark */ = CED0961F12104660005C9F53 /* PBXTextBookmark */;
 			CED096211210467E005C9F53 /* PBXTextBookmark */ = CED096211210467E005C9F53 /* PBXTextBookmark */;
+			CED0962612104981005C9F53 /* PBXTextBookmark */ = CED0962612104981005C9F53 /* PBXTextBookmark */;
+			CED0962712104981005C9F53 /* PBXTextBookmark */ = CED0962712104981005C9F53 /* PBXTextBookmark */;
+			CED0962812104981005C9F53 /* PBXTextBookmark */ = CED0962812104981005C9F53 /* PBXTextBookmark */;
 		};
 		sourceControlManager = CEB3ECEE1169870E001D2803 /* Source Control */;
 		userBuildSettings = {
@@ -184,7 +187,7 @@
 		fRef = CEDA3F9B11C28CE500E7363F /* PrompterView.m */;
 		name = "PrompterView.m: 84";
 		rLen = 49;
-		rLoc = 2009;
+		rLoc = 2130;
 		rType = 0;
 		vrLen = 285;
 		vrLoc = 1695;
@@ -228,7 +231,7 @@
 		fRef = CEDA3F9B11C28CE500E7363F /* PrompterView.m */;
 		name = "PrompterView.m: 83";
 		rLen = 0;
-		rLoc = 2007;
+		rLoc = 2128;
 		rType = 0;
 		vrLen = 422;
 		vrLoc = 1510;
@@ -284,7 +287,7 @@
 		fRef = CEDA3F9B11C28CE500E7363F /* PrompterView.m */;
 		name = "PrompterView.m: 84";
 		rLen = 49;
-		rLoc = 2009;
+		rLoc = 2130;
 		rType = 0;
 		vrLen = 285;
 		vrLoc = 1695;
@@ -304,7 +307,7 @@
 		fRef = CEDA3F9B11C28CE500E7363F /* PrompterView.m */;
 		name = "PrompterView.m: 83";
 		rLen = 0;
-		rLoc = 1956;
+		rLoc = 2077;
 		rType = 0;
 		vrLen = 299;
 		vrLoc = 1753;
@@ -314,7 +317,7 @@
 		fRef = CEDA3F9B11C28CE500E7363F /* PrompterView.m */;
 		name = "PrompterView.m: 64";
 		rLen = 0;
-		rLoc = 1390;
+		rLoc = 1511;
 		rType = 0;
 		vrLen = 308;
 		vrLoc = 1256;
@@ -323,7 +326,7 @@
 		isa = PBXTextBookmark;
 		fRef = CEDA3F9B11C28CE500E7363F /* PrompterView.m */;
 		rLen = 1;
-		rLoc = 60;
+		rLoc = 65;
 		rType = 1;
 	};
 	CED095F112104221005C9F53 /* PBXTextBookmark */ = {
@@ -331,7 +334,7 @@
 		fRef = CEDA3F9B11C28CE500E7363F /* PrompterView.m */;
 		name = "PrompterView.m: 63";
 		rLen = 0;
-		rLoc = 1390;
+		rLoc = 1511;
 		rType = 0;
 		vrLen = 308;
 		vrLoc = 1256;
@@ -341,7 +344,7 @@
 		fRef = CEDA3F9B11C28CE500E7363F /* PrompterView.m */;
 		name = "PrompterView.m: 65";
 		rLen = 0;
-		rLoc = 1390;
+		rLoc = 1511;
 		rType = 0;
 		vrLen = 269;
 		vrLoc = 1254;
@@ -351,7 +354,7 @@
 		fRef = CEDA3F9B11C28CE500E7363F /* PrompterView.m */;
 		name = "PrompterView.m: 65";
 		rLen = 0;
-		rLoc = 1390;
+		rLoc = 1511;
 		rType = 0;
 		vrLen = 269;
 		vrLoc = 1254;
@@ -361,7 +364,7 @@
 		fRef = CEDA3F9B11C28CE500E7363F /* PrompterView.m */;
 		name = "PrompterView.m: 90";
 		rLen = 0;
-		rLoc = 1956;
+		rLoc = 2077;
 		rType = 0;
 		vrLen = 446;
 		vrLoc = 1738;
@@ -371,7 +374,7 @@
 		fRef = CEDA3F9B11C28CE500E7363F /* PrompterView.m */;
 		name = "PrompterView.m: 64";
 		rLen = 0;
-		rLoc = 1390;
+		rLoc = 1511;
 		rType = 0;
 		vrLen = 336;
 		vrLoc = 1254;
@@ -381,7 +384,7 @@
 		fRef = CEDA3F9B11C28CE500E7363F /* PrompterView.m */;
 		name = "PrompterView.m: 90";
 		rLen = 0;
-		rLoc = 1956;
+		rLoc = 2077;
 		rType = 0;
 		vrLen = 379;
 		vrLoc = 1849;
@@ -391,7 +394,7 @@
 		fRef = CEDA3F9B11C28CE500E7363F /* PrompterView.m */;
 		name = "PrompterView.m: 64";
 		rLen = 0;
-		rLoc = 1390;
+		rLoc = 1511;
 		rType = 0;
 		vrLen = 361;
 		vrLoc = 1339;
@@ -401,7 +404,7 @@
 		fRef = CEDA3F9B11C28CE500E7363F /* PrompterView.m */;
 		name = "PrompterView.m: 62";
 		rLen = 0;
-		rLoc = 1390;
+		rLoc = 1511;
 		rType = 0;
 		vrLen = 366;
 		vrLoc = 1281;
@@ -411,7 +414,7 @@
 		fRef = CEDA3F9B11C28CE500E7363F /* PrompterView.m */;
 		name = "PrompterView.m: 62";
 		rLen = 0;
-		rLoc = 1390;
+		rLoc = 1511;
 		rType = 0;
 		vrLen = 366;
 		vrLoc = 1281;
@@ -421,7 +424,7 @@
 		fRef = CEDA3F9B11C28CE500E7363F /* PrompterView.m */;
 		name = "PrompterView.m: 62";
 		rLen = 0;
-		rLoc = 1390;
+		rLoc = 1511;
 		rType = 0;
 		vrLen = 366;
 		vrLoc = 1281;
@@ -431,7 +434,7 @@
 		fRef = CEDA3F9B11C28CE500E7363F /* PrompterView.m */;
 		name = "PrompterView.m: 62";
 		rLen = 0;
-		rLoc = 1390;
+		rLoc = 1511;
 		rType = 0;
 		vrLen = 366;
 		vrLoc = 1281;
@@ -441,7 +444,7 @@
 		fRef = CEDA3F9B11C28CE500E7363F /* PrompterView.m */;
 		name = "PrompterView.m: 81";
 		rLen = 0;
-		rLoc = 1956;
+		rLoc = 2077;
 		rType = 0;
 		vrLen = 344;
 		vrLoc = 1627;
@@ -461,7 +464,7 @@
 		fRef = CEDA3F9B11C28CE500E7363F /* PrompterView.m */;
 		name = "PrompterView.m: 87";
 		rLen = 0;
-		rLoc = 2006;
+		rLoc = 2127;
 		rType = 0;
 		vrLen = 446;
 		vrLoc = 1588;
@@ -471,7 +474,7 @@
 		fRef = CEDA3F9B11C28CE500E7363F /* PrompterView.m */;
 		name = "PrompterView.m: 87";
 		rLen = 0;
-		rLoc = 2006;
+		rLoc = 2127;
 		rType = 0;
 		vrLen = 422;
 		vrLoc = 1588;
@@ -481,23 +484,53 @@
 		fRef = CEDA3F9B11C28CE500E7363F /* PrompterView.m */;
 		name = "PrompterView.m: 86";
 		rLen = 0;
-		rLoc = 1985;
+		rLoc = 2106;
 		rType = 0;
 		vrLen = 422;
 		vrLoc = 1588;
+	};
+	CED0962612104981005C9F53 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = CEDA3F9A11C28CE500E7363F /* PrompterView.h */;
+		name = "PrompterView.h: 20";
+		rLen = 0;
+		rLoc = 382;
+		rType = 0;
+		vrLen = 341;
+		vrLoc = 210;
+	};
+	CED0962712104981005C9F53 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = CEDA3F9B11C28CE500E7363F /* PrompterView.m */;
+		name = "PrompterView.m: 86";
+		rLen = 0;
+		rLoc = 2106;
+		rType = 0;
+		vrLen = 422;
+		vrLoc = 1588;
+	};
+	CED0962812104981005C9F53 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = CEDA3F9B11C28CE500E7363F /* PrompterView.m */;
+		name = "PrompterView.m: 64";
+		rLen = 0;
+		rLoc = 1504;
+		rType = 0;
+		vrLen = 282;
+		vrLoc = 1230;
 	};
 	CEDA3F9A11C28CE500E7363F /* PrompterView.h */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {586, 390}}";
 			sepNavSelRange = "{382, 0}";
-			sepNavVisRange = "{174, 377}";
+			sepNavVisRange = "{210, 341}";
 		};
 	};
 	CEDA3F9B11C28CE500E7363F /* PrompterView.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {985, 1378}}";
-			sepNavSelRange = "{1985, 0}";
-			sepNavVisRange = "{1588, 422}";
+			sepNavIntBoundsRect = "{{0, 0}, {1139, 1339}}";
+			sepNavSelRange = "{1504, 0}";
+			sepNavVisRange = "{1230, 282}";
 		};
 	};
 }

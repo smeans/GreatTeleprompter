@@ -58,6 +58,11 @@
 	if (!paused) {
 		speechOffset += 1.0;
 		[self setNeedsDisplay];
+	} else {
+		if (scrollVelocity != 0) {
+			speechOffset += scrollVelocity * TICK_INTERVAL;
+			[self setNeedsDisplay];
+		}
 	}
 }
 
