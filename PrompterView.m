@@ -79,8 +79,12 @@
 	
 	speechOffset -= newTouchPos.y - lastTouchPos.y;
 	
+	CFTimeInterval now = CACurrentMediaTime();
+	
+	scrollVelocity = (lastTouchPos.y - newTouchPos.y)/(now - lastTouchTime);
+	
 	lastTouchPos = newTouchPos;
-	lastTouchTime = CACurrentMediaTime();
+	lastTouchTime = now;
 	
 	[self setNeedsLayout];
 }

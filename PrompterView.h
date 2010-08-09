@@ -17,6 +17,7 @@
 	bool paused;
 	CGPoint lastTouchPos;
 	CFTimeInterval lastTouchTime;
+	float scrollVelocity;
 }
 
 @property (nonatomic, retain) NSString *theSpeech;
