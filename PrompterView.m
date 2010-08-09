@@ -61,6 +61,7 @@
 	} else {
 		if (scrollVelocity != 0) {
 			speechOffset += scrollVelocity * TICK_INTERVAL;
+			scrollVelocity *= .91;
 			[self setNeedsDisplay];
 		}
 	}
