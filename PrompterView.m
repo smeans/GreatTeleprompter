@@ -31,7 +31,7 @@
 	CGContextRef c = UIGraphicsGetCurrentContext();
 	CGContextSetRGBFillColor(c, 1.0, 1.0, 1.0, 1.0);
 	
-	CGRect rc = CGRectMake(rect.origin.x, rect.origin.y - (speechOffset * (baseWidth/self.bounds.size.width)), rect.size.width, rect.size.height + speechOffset);
+	CGRect rc = CGRectMake(rect.origin.x, rect.origin.y - (speechOffset * (baseSize.width/self.bounds.size.width)), rect.size.width, rect.size.height + speechOffset);
 	
 	[theSpeech drawInRect:rc withFont:[UIFont systemFontOfSize:36.0]];
 }
@@ -44,7 +44,7 @@
 	tickTimer = [NSTimer scheduledTimerWithTimeInterval:TICK_INTERVAL target:self selector:@selector(timerTick:) userInfo:nil repeats:YES];
 	
 	speechOffset = 0.0;
-	baseWidth = self.bounds.size.width;
+	baseSize = [theSpeech sizeWithFont:[UIFont systemFontOfSize:36.0] constrainedToSize:CGSizeMake(self.bounds.size.width, INFINITY)];
 	
 	[self setNeedsDisplay];
 }
@@ -61,6 +61,13 @@
 		
 		if (speechOffset < 0) {
 			speechOffset = 0;
+			self.paused = true;
+		}
+		
+		float maxOffset = baseSize.height - self.bounds.size.height;
+		
+		if (speechOffset > maxOffset) {
+			speechOffset = maxOffset;
 			self.paused = true;
 		}
 		

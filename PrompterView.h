@@ -12,7 +12,7 @@
 @interface PrompterView : UIView {
 	NSString *theSpeech;
 	float speechOffset;
-	float baseWidth;
+	CGSize baseSize;
 	NSTimer *tickTimer;
 	bool paused;
 	CGPoint lastTouchPos;
