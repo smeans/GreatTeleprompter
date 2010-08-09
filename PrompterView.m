@@ -24,6 +24,7 @@
 - (void)awakeFromNib
 {
 	[[UIApplication sharedApplication] setStatusBarHidden:YES];
+	scrollVelocity = (1/TICK_INTERVAL);
 }
 
 - (void)drawRect:(CGRect)rect {
@@ -55,15 +56,14 @@
 
 - (void)timerTick:(NSTimer*)theTimer
 {
-	if (!paused) {
-		speechOffset += 1.0;
+	
+	if (round(scrollVelocity) != 0) {
+		speechOffset += scrollVelocity * TICK_INTERVAL;
 		[self setNeedsDisplay];
-	} else {
-		if (round(scrollVelocity) != 0) {
-			speechOffset += scrollVelocity * TICK_INTERVAL;
-			scrollVelocity *= .91;
-			[self setNeedsDisplay];
-		}
+	}
+	
+	if (paused) {
+		scrollVelocity *= .91;
 	}
 }
 
@@ -93,6 +93,11 @@
 	lastTouchTime = now;
 	
 	[self setNeedsLayout];
+}
+
+- (void)setPaused:(_Bool)newPaused
+{
+	scrollVelocity = newPaused ? 0 : (1/TICK_INTERVAL);
 }
 
 - (void)dealloc {
