@@ -56,9 +56,14 @@
 
 - (void)timerTick:(NSTimer*)theTimer
 {
-	
 	if (round(scrollVelocity) != 0) {
 		speechOffset += scrollVelocity * TICK_INTERVAL;
+		
+		if (speechOffset < 0) {
+			speechOffset = 0;
+			self.paused = true;
+		}
+		
 		[self setNeedsDisplay];
 	}
 	
@@ -98,6 +103,7 @@
 - (void)setPaused:(_Bool)newPaused
 {
 	scrollVelocity = newPaused ? 0 : (1/TICK_INTERVAL);
+	paused = newPaused;
 }
 
 - (void)dealloc {
