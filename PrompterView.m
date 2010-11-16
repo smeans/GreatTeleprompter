@@ -87,6 +87,8 @@
 	
 	lastTouchPos = [t locationInView:self];
 	lastTouchTime = CACurrentMediaTime();
+	
+	NSLog(@"touchesBegan");
 }
 
 - (void)touchesMoved:(NSSet *)touches withEvent:(UIEvent *)event
@@ -105,6 +107,11 @@
 	lastTouchTime = now;
 	
 	[self setNeedsLayout];
+}
+
+- (void)touchesEnded:(NSSet *)touches withEvent:(UIEvent *)event
+{
+	NSLog(@"touchesEnded");
 }
 
 - (void)setPaused:(_Bool)newPaused
