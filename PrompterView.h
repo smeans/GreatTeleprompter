@@ -24,6 +24,7 @@
 @property (nonatomic, retain) NSString *theSpeech;
 @property (nonatomic, assign) bool paused;
 @property (nonatomic, retain) NSMutableSet *currentTouches;
+@property (nonatomic, readonly) float touchGap;
 
 - (void)timerTick:(NSTimer*)theTimer;
 

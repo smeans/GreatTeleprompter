@@ -264,7 +264,7 @@
 		isa = PBXTextBookmark;
 		fRef = CEDA3F9B11C28CE500E7363F /* PrompterView.m */;
 		name = "PrompterView.m: 84";
-		rLen = 263;
+		rLen = 297;
 		rLoc = 2596;
 		rType = 0;
 		vrLen = 285;
@@ -364,7 +364,7 @@
 		isa = PBXTextBookmark;
 		fRef = CEDA3F9B11C28CE500E7363F /* PrompterView.m */;
 		name = "PrompterView.m: 84";
-		rLen = 263;
+		rLen = 297;
 		rLoc = 2596;
 		rType = 0;
 		vrLen = 285;
@@ -1324,16 +1324,16 @@
 	};
 	CEDA3F9A11C28CE500E7363F /* PrompterView.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {586, 416}}";
+			sepNavIntBoundsRect = "{{0, 0}, {586, 429}}";
 			sepNavSelRange = "{571, 0}";
-			sepNavVisRange = "{175, 435}";
+			sepNavVisRange = "{210, 448}";
 		};
 	};
 	CEDA3F9B11C28CE500E7363F /* PrompterView.m */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {586, 1833}}";
-			sepNavSelRange = "{2709, 0}";
-			sepNavVisRange = "{2493, 325}";
+			sepNavSelRange = "{2712, 0}";
+			sepNavVisRange = "{2624, 335}";
 		};
 	};
 	CEF0F8861296AB5400D3DC23 /* PBXTextBookmark */ = {
@@ -1351,7 +1351,7 @@
 		fRef = CEDA3F9A11C28CE500E7363F /* PrompterView.h */;
 		name = "PrompterView.h: 27";
 		rLen = 0;
-		rLoc = 571;
+		rLoc = 619;
 		rType = 0;
 		vrLen = 435;
 		vrLoc = 175;

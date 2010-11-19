@@ -121,6 +121,11 @@
 	NSLog(@"touchesEnded");
 }
 
+- (float)touchGap
+{
+	return 0;
+}
+
 - (void)setPaused:(_Bool)newPaused
 {
 	scrollVelocity = newPaused ? 0 : (1/TICK_INTERVAL);
