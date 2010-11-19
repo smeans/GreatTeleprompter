@@ -124,7 +124,15 @@
 - (float)touchGap
 {
 	if ([currentTouches count] == 2) {
+		UITouch *t1 = [[currentTouches allObjects] objectAtIndex:0];
+		CGPoint p1 = [t1 locationInView:self];
+		UITouch *t2 = [[currentTouches allObjects] objectAtIndex:1];
+		CGPoint p2 = [t2 locationInView:self];
 		
+		float dx = p2.x - p1.x;
+		float dy = p2.y - p1.y;
+		
+		return sqrt(dx*dx + dy*dy);
 	}
 	
 	return 0;
