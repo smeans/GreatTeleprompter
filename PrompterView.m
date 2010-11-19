@@ -111,7 +111,7 @@
 	
 	[self setNeedsLayout];
 	
-	NSLog(@"current touch count: %d", [currentTouches count]);
+	NSLog(@"current touchGap: %f", self.touchGap);
 }
 
 - (void)touchesEnded:(NSSet *)touches withEvent:(UIEvent *)event
