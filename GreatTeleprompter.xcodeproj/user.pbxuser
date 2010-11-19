@@ -268,7 +268,11 @@
 		isa = PBXTextBookmark;
 		fRef = CEDA3F9B11C28CE500E7363F /* PrompterView.m */;
 		name = "PrompterView.m: 84";
+<<<<<<< HEAD
 		rLen = 341;
+=======
+		rLen = 297;
+>>>>>>> e77378c541236070abf1196b49406a22b26acd90
 		rLoc = 2596;
 		rType = 0;
 		vrLen = 285;
@@ -368,7 +372,11 @@
 		isa = PBXTextBookmark;
 		fRef = CEDA3F9B11C28CE500E7363F /* PrompterView.m */;
 		name = "PrompterView.m: 84";
+<<<<<<< HEAD
 		rLen = 341;
+=======
+		rLen = 297;
+>>>>>>> e77378c541236070abf1196b49406a22b26acd90
 		rLoc = 2596;
 		rType = 0;
 		vrLen = 285;
@@ -1329,15 +1337,26 @@
 	CEDA3F9A11C28CE500E7363F /* PrompterView.h */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {586, 429}}";
+<<<<<<< HEAD
 			sepNavSelRange = "{619, 0}";
 			sepNavVisRange = "{306, 384}";
+=======
+			sepNavSelRange = "{571, 0}";
+			sepNavVisRange = "{210, 448}";
+>>>>>>> e77378c541236070abf1196b49406a22b26acd90
 		};
 	};
 	CEDA3F9B11C28CE500E7363F /* PrompterView.m */ = {
 		uiCtxt = {
+<<<<<<< HEAD
 			sepNavIntBoundsRect = "{{0, 0}, {586, 2002}}";
 			sepNavSelRange = "{2909, 0}";
 			sepNavVisRange = "{2778, 181}";
+=======
+			sepNavIntBoundsRect = "{{0, 0}, {586, 1833}}";
+			sepNavSelRange = "{2712, 0}";
+			sepNavVisRange = "{2624, 335}";
+>>>>>>> e77378c541236070abf1196b49406a22b26acd90
 		};
 	};
 	CEF0F8861296AB5400D3DC23 /* PBXTextBookmark */ = {
