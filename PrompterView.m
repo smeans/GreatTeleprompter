@@ -12,7 +12,7 @@
 
 @implementation PrompterView
 
-@synthesize theSpeech, paused;
+@synthesize theSpeech, paused, currentTouches;
 
 - (id)initWithFrame:(CGRect)frame {
     if ((self = [super initWithFrame:frame])) {
@@ -25,6 +25,7 @@
 {
 	[[UIApplication sharedApplication] setStatusBarHidden:YES];
 	scrollVelocity = (1/TICK_INTERVAL);
+	self.currentTouches = [[NSMutableSet alloc] initWithCapacity:5];
 }
 
 - (void)drawRect:(CGRect)rect {
@@ -83,6 +84,8 @@
 {
 	[super touchesBegan:touches withEvent:event];
 	
+	[currentTouches unionSet:touches];
+	
 	UITouch *t = [touches anyObject];
 	
 	lastTouchPos = [t locationInView:self];
@@ -107,10 +110,14 @@
 	lastTouchTime = now;
 	
 	[self setNeedsLayout];
+	
+	NSLog(@"current touch count: %d", [currentTouches count]);
 }
 
 - (void)touchesEnded:(NSSet *)touches withEvent:(UIEvent *)event
 {
+	[currentTouches minusSet:touches];
+	
 	NSLog(@"touchesEnded");
 }
 

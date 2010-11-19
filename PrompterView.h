@@ -18,10 +18,12 @@
 	CGPoint lastTouchPos;
 	CFTimeInterval lastTouchTime;
 	float scrollVelocity;
+	NSMutableSet *currentTouches;
 }
 
 @property (nonatomic, retain) NSString *theSpeech;
 @property (nonatomic, assign) bool paused;
+@property (nonatomic, retain) NSMutableSet *currentTouches;
 
 - (void)timerTick:(NSTimer*)theTimer;
 
