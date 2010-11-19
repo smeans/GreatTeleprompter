@@ -331,7 +331,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>CEF0F8941296B2BD00D3DC23</string>
+										<string>CEF7C9D81296DBFD009661FD</string>
 										<key>history</key>
 										<array>
 											<string>CE80F97711DA37FD000CB627</string>
@@ -341,8 +341,8 @@
 											<string>CE01ACEB11EB8E55007B2358</string>
 											<string>CE01ACF511EB8F20007B2358</string>
 											<string>CED096AA12105AFF005C9F53</string>
-											<string>CEF0F8921296B2BD00D3DC23</string>
-											<string>CEF0F8931296B2BD00D3DC23</string>
+											<string>CEF7C9D61296DBFD009661FD</string>
+											<string>CEF7C9D71296DBFD009661FD</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -354,14 +354,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {647, 241}}</string>
+								<string>{{0, 0}, {647, 231}}</string>
 								<key>RubberWindowFrame</key>
 								<string>155 206 907 492 0 0 1280 698 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
-							<string>241pt</string>
+							<string>231pt</string>
 						</dict>
 						<dict>
 							<key>ContentConfiguration</key>
@@ -374,14 +374,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 246}, {647, 205}}</string>
+								<string>{{0, 236}, {647, 215}}</string>
 								<key>RubberWindowFrame</key>
 								<string>155 206 907 492 0 0 1280 698 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
 							<key>Proportion</key>
-							<string>205pt</string>
+							<string>215pt</string>
 						</dict>
 					</array>
 					<key>Proportion</key>
@@ -400,9 +400,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>CEF0F8871296AB5400D3DC23</string>
+				<string>CEF7C9CF1296CAA7009661FD</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>CEF0F8881296AB5400D3DC23</string>
+				<string>CEF7C9D01296CAA7009661FD</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -540,9 +540,6 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>CEF0F89C1296B2BD00D3DC23</string>
-		<string>CEF0F89D1296B2BD00D3DC23</string>
-		<string>1C78EAAD065D492600B07095</string>
 		<string>1CD10A99069EF8BA00B06720</string>
 		<string>CE97A11111701F6B00329BD5</string>
 		<string>/Users/user/Documents/GreatTeleprompter/GreatTeleprompter.xcodeproj</string>
@@ -625,7 +622,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>CE97A11111701F6B00329BD5</string>
-				<string>CEF0F8891296AB5400D3DC23</string>
+				<string>CEF7C9D11296CAA7009661FD</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>
@@ -747,13 +744,13 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1CD10A99069EF8BA00B06720</string>
-				<string>CEF0F8951296B2BD00D3DC23</string>
+				<string>CEF7C9D91296DBFD009661FD</string>
 				<string>1C162984064C10D400B95A72</string>
-				<string>CEF0F8961296B2BD00D3DC23</string>
-				<string>CEF0F8971296B2BD00D3DC23</string>
-				<string>CEF0F8981296B2BD00D3DC23</string>
-				<string>CEF0F8991296B2BD00D3DC23</string>
-				<string>CEF0F89A1296B2BD00D3DC23</string>
+				<string>CEF7C9DA1296DBFD009661FD</string>
+				<string>CEF7C9DB1296DBFD009661FD</string>
+				<string>CEF7C9DC1296DBFD009661FD</string>
+				<string>CEF7C9DD1296DBFD009661FD</string>
+				<string>CEF7C9DE1296DBFD009661FD</string>
 			</array>
 			<key>ToolbarConfiguration</key>
 			<string>xcode.toolbar.config.debugV3</string>
