@@ -93,22 +93,24 @@
 
 - (void)touchesMoved:(NSSet *)touches withEvent:(UIEvent *)event
 {
-	UITouch *t = [touches anyObject];
-	
-	CGPoint newTouchPos = [t locationInView:self];
-	
-	speechOffset -= newTouchPos.y - lastTouchPos.y;
-	
-	CFTimeInterval now = CACurrentMediaTime();
-	
-	scrollVelocity = (lastTouchPos.y - newTouchPos.y)/(now - lastTouchTime);
-	
-	lastTouchPos = newTouchPos;
-	lastTouchTime = now;
-	
-	[self setNeedsLayout];
-	
-	NSLog(@"current touchGap: %f", self.touchGap);
+	if ([currentTouches count] == 1) {
+		UITouch *t = [touches anyObject];
+		
+		CGPoint newTouchPos = [t locationInView:self];
+		
+		speechOffset -= newTouchPos.y - lastTouchPos.y;
+		
+		CFTimeInterval now = CACurrentMediaTime();
+		
+		scrollVelocity = (lastTouchPos.y - newTouchPos.y)/(now - lastTouchTime);
+		
+		lastTouchPos = newTouchPos;
+		lastTouchTime = now;
+		
+		[self setNeedsDisplay];
+	} if ([currentTouches count] == 2) {
+		NSLog(@"touchGap delta: %f", self.touchGap-baseTouchGap);
+	}
 }
 
 - (void)touchesEnded:(NSSet *)touches withEvent:(UIEvent *)event
