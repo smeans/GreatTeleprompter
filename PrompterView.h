@@ -16,6 +16,7 @@
 	NSTimer *tickTimer;
 	bool paused;
 	CGPoint lastTouchPos;
+	float baseTouchGap;
 	CFTimeInterval lastTouchTime;
 	float scrollVelocity;
 	NSMutableSet *currentTouches;
@@ -27,6 +28,7 @@
 @property (nonatomic, readonly) float touchGap;
 
 - (void)timerTick:(NSTimer*)theTimer;
+- (void)initTouchInfo;
 
 #define TICK_INTERVAL	.05
 @end

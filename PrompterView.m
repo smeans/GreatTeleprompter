@@ -85,11 +85,8 @@
 	[super touchesBegan:touches withEvent:event];
 	
 	[currentTouches unionSet:touches];
-	
-	UITouch *t = [touches anyObject];
-	
-	lastTouchPos = [t locationInView:self];
-	lastTouchTime = CACurrentMediaTime();
+
+	[self initTouchInfo];
 	
 	NSLog(@"touchesBegan");
 }
@@ -118,6 +115,8 @@
 {
 	[currentTouches minusSet:touches];
 	
+	[self initTouchInfo];
+	
 	NSLog(@"touchesEnded");
 }
 
@@ -136,6 +135,18 @@
 	}
 	
 	return 0;
+}
+
+- (void)initTouchInfo
+{
+	if ([currentTouches count] == 1) {
+		UITouch *t = [currentTouches anyObject];
+		
+		lastTouchPos = [t locationInView:self];
+		lastTouchTime = CACurrentMediaTime();
+	} else if ([currentTouches count] == 2) {
+		baseTouchGap = self.touchGap;
+	}
 }
 
 - (void)setPaused:(_Bool)newPaused
