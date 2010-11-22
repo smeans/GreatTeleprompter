@@ -110,6 +110,7 @@
 		[self setNeedsDisplay];
 	} if ([currentTouches count] == 2) {
 		NSLog(@"touchGap delta: %f", self.touchGap-baseTouchGap);
+		[self setNeedsDisplay];
 	}
 }
 
@@ -141,7 +142,11 @@
 
 - (UIFont *)currentFont
 {
-	return [UIFont systemFontOfSize:36.0];
+	if (self.touchGap) {
+		return [UIFont systemFontOfSize:36.0+(self.touchGap-baseTouchGap)/2];
+	} else {
+		return [UIFont systemFontOfSize:36.0];
+	}
 }
 
 - (void)initTouchInfo
