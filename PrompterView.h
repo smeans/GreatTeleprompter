@@ -26,6 +26,7 @@
 @property (nonatomic, assign) bool paused;
 @property (nonatomic, retain) NSMutableSet *currentTouches;
 @property (nonatomic, readonly) float touchGap;
+@property (nonatomic, readonly) UIFont *currentFont;
 
 - (void)timerTick:(NSTimer*)theTimer;
 - (void)initTouchInfo;

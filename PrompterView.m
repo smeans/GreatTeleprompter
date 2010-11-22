@@ -34,7 +34,7 @@
 	
 	CGRect rc = CGRectMake(rect.origin.x, rect.origin.y - (speechOffset * (baseSize.width/self.bounds.size.width)), rect.size.width, rect.size.height + speechOffset);
 	
-	[theSpeech drawInRect:rc withFont:[UIFont systemFontOfSize:36.0]];
+	[theSpeech drawInRect:rc withFont:self.currentFont];
 }
 
 - (void)setTheSpeech:(NSString *)newSpeech
@@ -45,7 +45,7 @@
 	tickTimer = [NSTimer scheduledTimerWithTimeInterval:TICK_INTERVAL target:self selector:@selector(timerTick:) userInfo:nil repeats:YES];
 	
 	speechOffset = 0.0;
-	baseSize = [theSpeech sizeWithFont:[UIFont systemFontOfSize:36.0] constrainedToSize:CGSizeMake(self.bounds.size.width, INFINITY)];
+	baseSize = [theSpeech sizeWithFont:self.currentFont constrainedToSize:CGSizeMake(self.bounds.size.width, INFINITY)];
 	
 	[self setNeedsDisplay];
 }
@@ -137,6 +137,11 @@
 	}
 	
 	return 0;
+}
+
+- (UIFont *)currentFont
+{
+	return [UIFont systemFontOfSize:36.0];
 }
 
 - (void)initTouchInfo
