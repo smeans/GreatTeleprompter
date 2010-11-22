@@ -31,5 +31,9 @@
 - (void)timerTick:(NSTimer*)theTimer;
 - (void)initTouchInfo;
 
-#define TICK_INTERVAL	.05
+#define TICK_INTERVAL		.05
+
+#define DEFAULT_FONT_SIZE	36.0
+#define MIN_FONT_SIZE		8.0
+#define MAX_FONT_SIZE		100.0
 @end
