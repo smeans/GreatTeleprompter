@@ -142,6 +142,12 @@
 
 - (UIFont *)currentFont
 {
+	float fontSize = [[NSUserDefaults standardUserDefaults] floatForKey:FONT_SIZE_KEY];
+	
+	if (!fontSize) {
+		fontSize = DEFAULT_FONT_SIZE;
+	}
+	
 	if (self.touchGap) {
 		float newFontSize = DEFAULT_FONT_SIZE+(self.touchGap-baseTouchGap)/2;
 		newFontSize = MIN(MAX_FONT_SIZE, MAX(newFontSize, MIN_FONT_SIZE));

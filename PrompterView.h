@@ -36,4 +36,5 @@
 #define DEFAULT_FONT_SIZE	36.0
 #define MIN_FONT_SIZE		8.0
 #define MAX_FONT_SIZE		100.0
+#define FONT_SIZE_KEY		@"FontSize"
 @end
