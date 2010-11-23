@@ -149,12 +149,12 @@
 	}
 	
 	if (self.touchGap) {
-		float newFontSize = DEFAULT_FONT_SIZE+(self.touchGap-baseTouchGap)/2;
+		float newFontSize = fontSize + (self.touchGap-baseTouchGap)/2;
 		newFontSize = MIN(MAX_FONT_SIZE, MAX(newFontSize, MIN_FONT_SIZE));
 		
 		return [UIFont systemFontOfSize:newFontSize];
 	} else {
-		return [UIFont systemFontOfSize:DEFAULT_FONT_SIZE];
+		return [UIFont systemFontOfSize:fontSize];
 	}
 }
 
