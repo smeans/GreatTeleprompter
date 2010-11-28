@@ -116,6 +116,10 @@
 
 - (void)touchesEnded:(NSSet *)touches withEvent:(UIEvent *)event
 {
+	if ([currentTouches count] == 2) {
+		[[NSUserDefaults standardUserDefaults] setFloat:self.currentFont.pointSize forKey:FONT_SIZE_KEY];
+	}
+	
 	[currentTouches minusSet:touches];
 	
 	[self initTouchInfo];
