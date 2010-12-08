@@ -19,3 +19,5 @@
 - (void)appWillTerminate:(NSNotification *)notification;
 
 @end
+
+#define SPEECHOFFSET_KEY	@"SpeechOffset"

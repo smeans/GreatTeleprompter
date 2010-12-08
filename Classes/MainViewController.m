@@ -41,6 +41,11 @@
 	
 }
 
+- (void)appWillTerminate:(NSNotification *)notification
+{
+	[[NSUserDefaults standardUserDefaults] setFloat:prompter.speechOffset forKey:SPEECHOFFSET_KEY];
+}
+
 
 - (IBAction)showInfo {    
 	

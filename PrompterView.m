@@ -12,7 +12,7 @@
 
 @implementation PrompterView
 
-@synthesize theSpeech, paused, currentTouches;
+@synthesize theSpeech, paused, currentTouches, speechOffset;
 
 - (id)initWithFrame:(CGRect)frame {
     if ((self = [super initWithFrame:frame])) {

@@ -27,6 +27,7 @@
 @property (nonatomic, retain) NSMutableSet *currentTouches;
 @property (nonatomic, readonly) float touchGap;
 @property (nonatomic, readonly) UIFont *currentFont;
+@property (nonatomic, assign) float speechOffset;
 
 - (void)timerTick:(NSTimer*)theTimer;
 - (void)initTouchInfo;
