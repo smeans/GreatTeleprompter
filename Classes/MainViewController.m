@@ -27,6 +27,7 @@
 	
 	NSNotificationCenter *nc = [NSNotificationCenter defaultCenter];
 	[nc addObserver:self selector:@selector(appWillTerminate:) name:UIApplicationWillTerminateNotification object:nil];
+	[nc addObserver:self selector:@selector(appWillSuspend:) name:UIApplicationWillResignActiveNotification object:nil];
 	
 	prompter.theSpeech = theAppDelegate.currentSpeech;
 }
@@ -34,6 +35,7 @@
 - (void)viewDidAppear:(BOOL)animated
 {
 	prompter.theSpeech = theAppDelegate.currentSpeech;
+	
 	if (!hasInitialized) {
 		prompter.speechOffset = [[NSUserDefaults standardUserDefaults] floatForKey:SPEECHOFFSET_KEY];
 		hasInitialized = true;
@@ -51,6 +53,11 @@
 	[[NSUserDefaults standardUserDefaults] setFloat:prompter.speechOffset forKey:SPEECHOFFSET_KEY];
 }
 
+- (void)appWillSuspend:(NSNotification *)notification
+{
+	prompter.paused = true;
+	playButton.hidden = false;
+}
 
 - (IBAction)showInfo {    
 	

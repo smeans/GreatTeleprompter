@@ -18,6 +18,7 @@
 - (IBAction)showInfo;
 - (IBAction)playClicked;
 - (void)appWillTerminate:(NSNotification *)notification;
+- (void)appWillSuspend:(NSNotification *)notification;
 
 @end
 
