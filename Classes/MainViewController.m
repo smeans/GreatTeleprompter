@@ -24,6 +24,9 @@
 - (void)viewDidLoad {
 	[super viewDidLoad];
 	
+	NSNotificationCenter *nc = [NSNotificationCenter defaultCenter];
+	[nc addObserver:self selector:@selector(appWillTerminate:) name:UIApplicationWillTerminateNotification object:nil];
+	
 	prompter.theSpeech = theAppDelegate.currentSpeech;
 }
 

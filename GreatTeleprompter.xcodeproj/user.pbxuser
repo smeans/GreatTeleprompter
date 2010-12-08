@@ -110,8 +110,8 @@
 					PBXFileDataSource_Target_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 312660763;
-			PBXWorkspaceStateSaveDate = 312660763;
+			PBXPerProjectTemplateStateSaveDate = 313515330;
+			PBXWorkspaceStateSaveDate = 313515330;
 		};
 		perUserProjectItems = {
 			CE01ACEB11EB8E55007B2358 = CE01ACEB11EB8E55007B2358 /* PBXTextBookmark */;
@@ -122,6 +122,10 @@
 			CE80FA7B11DA45DF000CB627 = CE80FA7B11DA45DF000CB627 /* PBXTextBookmark */;
 			CE9028D11296EACF00A25C2B = CE9028D11296EACF00A25C2B /* PBXTextBookmark */;
 			CE90BEF51296EEBB00B16AFE = CE90BEF51296EEBB00B16AFE /* PBXTextBookmark */;
+			CEADA8AF12AFDD470065B2EA /* PBXTextBookmark */ = CEADA8AF12AFDD470065B2EA /* PBXTextBookmark */;
+			CEADA8C412AFDD620065B2EA /* PBXTextBookmark */ = CEADA8C412AFDD620065B2EA /* PBXTextBookmark */;
+			CEADA8D312AFEAC00065B2EA /* PBXTextBookmark */ = CEADA8D312AFEAC00065B2EA /* PBXTextBookmark */;
+			CEADA8D512AFEAC00065B2EA /* PBXTextBookmark */ = CEADA8D512AFEAC00065B2EA /* PBXTextBookmark */;
 			CED096AA12105AFF005C9F53 = CED096AA12105AFF005C9F53 /* PBXTextBookmark */;
 			CEF0C4DE129AA009000812C8 = CEF0C4DE129AA009000812C8 /* PBXTextBookmark */;
 			CEF0C4F3129AA19E000812C8 = CEF0C4F3129AA19E000812C8 /* PBXTextBookmark */;
@@ -274,6 +278,50 @@
 		vrLen = 212;
 		vrLoc = 2622;
 	};
+	CEADA8AF12AFDD470065B2EA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = CEDA3F9B11C28CE500E7363F /* PrompterView.m */;
+		name = "PrompterView.m: 157";
+		rLen = 0;
+		rLoc = 3662;
+		rType = 0;
+		vrLen = 503;
+		vrLoc = 3004;
+	};
+	CEADA8C412AFDD620065B2EA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = CEDA3F9B11C28CE500E7363F /* PrompterView.m */;
+		name = "PrompterView.m: 157";
+		rLen = 0;
+		rLoc = 3662;
+		rType = 0;
+		vrLen = 503;
+		vrLoc = 3004;
+	};
+	CEADA8D312AFEAC00065B2EA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = CEADA8D412AFEAC00065B2EA /* PrompterView.m */;
+		rLen = 9;
+		rLoc = 1202;
+		rType = 0;
+	};
+	CEADA8D412AFEAC00065B2EA /* PrompterView.m */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.objc;
+		name = PrompterView.m;
+		path = /Users/user/Documents/GreatTeleprompter/PrompterView.m;
+		sourceTree = "<absolute>";
+	};
+	CEADA8D512AFEAC00065B2EA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = CEDA3F9B11C28CE500E7363F /* PrompterView.m */;
+		name = "PrompterView.m: 45";
+		rLen = 9;
+		rLoc = 1202;
+		rType = 0;
+		vrLen = 466;
+		vrLoc = 955;
+	};
 	CEB3ECDE116986EE001D2803 /* GreatTeleprompter */ = {
 		isa = PBXExecutable;
 		activeArgIndices = (
@@ -346,9 +394,9 @@
 	};
 	CEDA3F9B11C28CE500E7363F /* PrompterView.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {621, 2457}}";
-			sepNavSelRange = "{3662, 0}";
-			sepNavVisRange = "{3219, 452}";
+			sepNavIntBoundsRect = "{{0, 0}, {1174, 2340}}";
+			sepNavSelRange = "{1202, 9}";
+			sepNavVisRange = "{955, 466}";
 			sepNavWindowFrame = "{{15, 135}, {750, 558}}";
 		};
 	};
