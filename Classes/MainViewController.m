@@ -21,7 +21,8 @@
 }
 
 
-- (void)viewDidLoad {
+- (void)viewDidLoad
+{
 	[super viewDidLoad];
 	
 	NSNotificationCenter *nc = [NSNotificationCenter defaultCenter];
@@ -33,6 +34,10 @@
 - (void)viewDidAppear:(BOOL)animated
 {
 	prompter.theSpeech = theAppDelegate.currentSpeech;
+	if (!hasInitialized) {
+		prompter.speechOffset = [[NSUserDefaults standardUserDefaults] floatForKey:SPEECHOFFSET_KEY];
+		hasInitialized = true;
+	}
 }
 
 - (void)flipsideViewControllerDidFinish:(FlipsideViewController *)controller {

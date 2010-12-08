@@ -319,7 +319,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>MainViewController.h</string>
+								<string>MainViewController.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -327,11 +327,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>MainViewController.h</string>
+										<string>MainViewController.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>CE4B936312AFF87A0077EB79</string>
+										<string>CE4B939E12B00E770077EB79</string>
 										<key>history</key>
 										<array>
 											<string>CE80F97711DA37FD000CB627</string>
@@ -341,8 +341,8 @@
 											<string>CEADA8E712AFF47C0065B2EA</string>
 											<string>CE4B935F12AFF87A0077EB79</string>
 											<string>CE4B936012AFF87A0077EB79</string>
-											<string>CE4B936112AFF87A0077EB79</string>
-											<string>CE4B936212AFF87A0077EB79</string>
+											<string>CE4B939C12B00E770077EB79</string>
+											<string>CE4B939D12B00E770077EB79</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -540,7 +540,7 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>CE4B936412AFF87A0077EB79</string>
+		<string>CE4B939F12B00E770077EB79</string>
 		<string>CE4B936512AFF87A0077EB79</string>
 		<string>CE4B935512AFF7D70077EB79</string>
 		<string>1C78EAAD065D492600B07095</string>
