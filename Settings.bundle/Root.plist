@@ -18,9 +18,9 @@
 			<key>Key</key>
 			<string>FontSize</string>
 			<key>DefaultValue</key>
-			<real>36</real>
+			<integer>36</integer>
 			<key>MinimumValue</key>
-			<real>8</real>
+			<integer>8</integer>
 			<key>MaximumValue</key>
 			<integer>100</integer>
 			<key>MinimumValueImage</key>
