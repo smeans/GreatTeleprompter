@@ -20,6 +20,7 @@
 	CFTimeInterval lastTouchTime;
 	float scrollVelocity;
 	NSMutableSet *currentTouches;
+	bool blackOnWhite;
 }
 
 @property (nonatomic, retain) NSString *theSpeech;
@@ -38,4 +39,5 @@
 #define MIN_FONT_SIZE		8.0
 #define MAX_FONT_SIZE		100.0
 #define FONT_SIZE_KEY		@"FontSize"
+#define BOW_KEY				@"BlackOnWhite"
 @end

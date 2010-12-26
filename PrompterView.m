@@ -26,6 +26,10 @@
 	[[UIApplication sharedApplication] setStatusBarHidden:YES];
 	scrollVelocity = (1/TICK_INTERVAL);
 	self.currentTouches = [[NSMutableSet alloc] initWithCapacity:5];
+	blackOnWhite = [[NSUserDefaults standardUserDefaults] boolForKey:BOW_KEY];
+	if (blackOnWhite) {
+		self.backgroundColor = [UIColor colorWithWhite:1.0 alpha:1.0];
+	}
 }
 
 - (void)drawRect:(CGRect)rect {

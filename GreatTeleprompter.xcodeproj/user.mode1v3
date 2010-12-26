@@ -277,9 +277,8 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>16</integer>
-									<integer>15</integer>
-									<integer>14</integer>
+									<integer>2</integer>
+									<integer>1</integer>
 									<integer>0</integer>
 								</array>
 							</array>
@@ -314,12 +313,14 @@
 					<key>Dock</key>
 					<array>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>Root.plist</string>
+								<string>PrompterView.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -327,11 +328,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>Root.plist</string>
+										<string>PrompterView.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>CE8A43E512C7D5AD007ADB1E</string>
+										<string>CE8A440812C7DC93007ADB1E</string>
 										<key>history</key>
 										<array>
 											<string>CE80F97711DA37FD000CB627</string>
@@ -341,7 +342,9 @@
 											<string>CE4B93B112B012F50077EB79</string>
 											<string>CE4B93D512B0161E0077EB79</string>
 											<string>CE30AE5412C7CEBF00DFDDA8</string>
-											<string>CE8A43E412C7D5AD007ADB1E</string>
+											<string>CE8A43FE12C7DC35007ADB1E</string>
+											<string>CE8A43FF12C7DC35007ADB1E</string>
+											<string>CE8A440012C7DC35007ADB1E</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -539,7 +542,8 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>CE8A43F012C7D5AD007ADB1E</string>
+		<string>CE8A440712C7DC8D007ADB1E</string>
+		<string>CE8A440312C7DC35007ADB1E</string>
 		<string>CE8A43F112C7D5AD007ADB1E</string>
 		<string>1C78EAAD065D492600B07095</string>
 		<string>1CD10A99069EF8BA00B06720</string>
