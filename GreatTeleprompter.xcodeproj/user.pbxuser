@@ -130,6 +130,7 @@
 			CE8A440112C7DC35007ADB1E /* PBXTextBookmark */ = CE8A440112C7DC35007ADB1E /* PBXTextBookmark */;
 			CE8A440612C7DC8D007ADB1E /* PBXTextBookmark */ = CE8A440612C7DC8D007ADB1E /* PBXTextBookmark */;
 			CE8A440812C7DC93007ADB1E /* PBXTextBookmark */ = CE8A440812C7DC93007ADB1E /* PBXTextBookmark */;
+			CE8A440B12C7E0AF007ADB1E /* PBXTextBookmark */ = CE8A440B12C7E0AF007ADB1E /* PBXTextBookmark */;
 			CEADA8E612AFF47C0065B2EA = CEADA8E612AFF47C0065B2EA /* PBXTextBookmark */;
 			CED096AA12105AFF005C9F53 = CED096AA12105AFF005C9F53 /* PBXTextBookmark */;
 		};
@@ -302,6 +303,16 @@
 		vrLen = 711;
 		vrLoc = 477;
 	};
+	CE8A440B12C7E0AF007ADB1E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = CEDA3F9B11C28CE500E7363F /* PrompterView.m */;
+		name = "PrompterView.m: 38";
+		rLen = 0;
+		rLoc = 1025;
+		rType = 0;
+		vrLen = 722;
+		vrLoc = 601;
+	};
 	CEADA8E612AFF47C0065B2EA /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 1D3623240D0F684500981E51 /* GreatTeleprompterAppDelegate.h */;
@@ -384,9 +395,9 @@
 	};
 	CEDA3F9B11C28CE500E7363F /* PrompterView.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1174, 2405}}";
-			sepNavSelRange = "{828, 0}";
-			sepNavVisRange = "{477, 711}";
+			sepNavIntBoundsRect = "{{0, 0}, {1174, 2366}}";
+			sepNavSelRange = "{1025, 0}";
+			sepNavVisRange = "{601, 722}";
 			sepNavWindowFrame = "{{15, 135}, {750, 558}}";
 		};
 	};

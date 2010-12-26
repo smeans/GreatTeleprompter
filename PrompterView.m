@@ -34,7 +34,8 @@
 
 - (void)drawRect:(CGRect)rect {
 	CGContextRef c = UIGraphicsGetCurrentContext();
-	CGContextSetRGBFillColor(c, 1.0, 1.0, 1.0, 1.0);
+	CGFloat fontColor = blackOnWhite ? 0.0 : 1.0;
+	CGContextSetRGBFillColor(c, fontColor, fontColor, fontColor, 1.0);
 	
 	CGRect rc = CGRectMake(rect.origin.x, rect.origin.y - (speechOffset * (baseSize.width/self.bounds.size.width)), rect.size.width, rect.size.height + speechOffset);
 	
