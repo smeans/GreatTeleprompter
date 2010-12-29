@@ -19,6 +19,8 @@
 		289233B00DB2D0DB0083E9F9 /* FlipsideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 289233AD0DB2D0DB0083E9F9 /* FlipsideViewController.m */; };
 		CE1FC63212CAE113009F09A6 /* DismissViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE1FC63112CAE113009F09A6 /* DismissViewController.m */; };
 		CE1FC63712CAE457009F09A6 /* SpeechTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE1FC63612CAE457009F09A6 /* SpeechTableViewController.m */; };
+		CE1FC67212CAE988009F09A6 /* SpeechEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE1FC67012CAE988009F09A6 /* SpeechEditViewController.m */; };
+		CE1FC67312CAE988009F09A6 /* SpeechEditView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE1FC67112CAE988009F09A6 /* SpeechEditView.xib */; };
 		CE30AE5112C7CEB600DFDDA8 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CE30AE5012C7CEB600DFDDA8 /* Settings.bundle */; };
 		CE80FB5611DD040D000CB627 /* PlayButton.png in Resources */ = {isa = PBXBuildFile; fileRef = CE80FB5511DD040D000CB627 /* PlayButton.png */; };
 		CE97388B11EDEABD00325D1D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE97388A11EDEABD00325D1D /* QuartzCore.framework */; };
@@ -46,6 +48,9 @@
 		CE1FC63112CAE113009F09A6 /* DismissViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DismissViewController.m; sourceTree = "<group>"; };
 		CE1FC63512CAE457009F09A6 /* SpeechTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpeechTableViewController.h; sourceTree = "<group>"; };
 		CE1FC63612CAE457009F09A6 /* SpeechTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpeechTableViewController.m; sourceTree = "<group>"; };
+		CE1FC66F12CAE988009F09A6 /* SpeechEditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpeechEditViewController.h; sourceTree = "<group>"; };
+		CE1FC67012CAE988009F09A6 /* SpeechEditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpeechEditViewController.m; sourceTree = "<group>"; };
+		CE1FC67112CAE988009F09A6 /* SpeechEditView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SpeechEditView.xib; sourceTree = "<group>"; };
 		CE30AE5012C7CEB600DFDDA8 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 		CE80FB5511DD040D000CB627 /* PlayButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PlayButton.png; sourceTree = "<group>"; };
 		CE97388A11EDEABD00325D1D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
@@ -95,6 +100,9 @@
 				CE1FC63112CAE113009F09A6 /* DismissViewController.m */,
 				CE1FC63512CAE457009F09A6 /* SpeechTableViewController.h */,
 				CE1FC63612CAE457009F09A6 /* SpeechTableViewController.m */,
+				CE1FC66F12CAE988009F09A6 /* SpeechEditViewController.h */,
+				CE1FC67012CAE988009F09A6 /* SpeechEditViewController.m */,
+				CE1FC67112CAE988009F09A6 /* SpeechEditView.xib */,
 			);
 			name = "Flipside View";
 			sourceTree = "<group>";
@@ -219,6 +227,7 @@
 				280E754F0DD40C5E005A515E /* MainWindow.xib in Resources */,
 				CE80FB5611DD040D000CB627 /* PlayButton.png in Resources */,
 				CE30AE5112C7CEB600DFDDA8 /* Settings.bundle in Resources */,
+				CE1FC67312CAE988009F09A6 /* SpeechEditView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,6 +245,7 @@
 				CEDA3F9C11C28CE500E7363F /* PrompterView.m in Sources */,
 				CE1FC63212CAE113009F09A6 /* DismissViewController.m in Sources */,
 				CE1FC63712CAE457009F09A6 /* SpeechTableViewController.m in Sources */,
+				CE1FC67212CAE988009F09A6 /* SpeechEditViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

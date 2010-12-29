@@ -30,9 +30,9 @@
 	};
 	289233A90DB2D0DB0083E9F9 /* MainViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {852, 1430}}";
-			sepNavSelRange = "{1763, 0}";
-			sepNavVisRange = "{1545, 593}";
+			sepNavIntBoundsRect = "{{0, 0}, {852, 1417}}";
+			sepNavSelRange = "{2049, 0}";
+			sepNavVisRange = "{1555, 539}";
 			sepNavWindowFrame = "{{15, 135}, {750, 558}}";
 		};
 	};
@@ -166,12 +166,34 @@
 			sepNavVisRange = "{894, 632}";
 		};
 	};
+	CE1FC63512CAE457009F09A6 /* SpeechTableViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {562, 264}}";
+			sepNavSelRange = "{162, 0}";
+			sepNavVisRange = "{0, 261}";
+		};
+	};
+	CE1FC63612CAE457009F09A6 /* SpeechTableViewController.m */ = {
+		uiCtxt = {
+			sepNavFolds = "{\n    c =     (\n                {\n            l = DetailViewController;\n            r = \"{4091, 24}\";\n            s = 1;\n        },\n                {\n            l = DetailViewController;\n            r = \"{4142, 24}\";\n            s = 1;\n        },\n                {\n            l = \"Nib name\";\n            r = \"{4192, 12}\";\n            s = 1;\n        }\n    );\n    r = \"{0, 4888}\";\n    s = 0;\n}";
+			sepNavIntBoundsRect = "{{0, 0}, {1069, 2366}}";
+			sepNavSelRange = "{161, 0}";
+			sepNavVisRange = "{0, 533}";
+		};
+	};
+	CE1FC66F12CAE988009F09A6 /* SpeechEditViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {562, 264}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 254}";
+		};
+	};
 	CE30AE5412C7CEBF00DFDDA8 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 289233A90DB2D0DB0083E9F9 /* MainViewController.m */;
 		name = "MainViewController.m: 71";
 		rLen = 0;
-		rLoc = 2135;
+		rLoc = 2092;
 		rType = 0;
 		vrLen = 584;
 		vrLoc = 1486;
