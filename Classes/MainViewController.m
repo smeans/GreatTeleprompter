@@ -59,15 +59,18 @@
 	playButton.hidden = false;
 }
 
-- (IBAction)showInfo {    
+- (IBAction)showInfo {
 	
 	FlipsideViewController *controller = [[FlipsideViewController alloc] initWithNibName:@"FlipsideView" bundle:nil];
 	controller.delegate = self;
 	
-	controller.modalTransitionStyle = UIModalTransitionStyleFlipHorizontal;
-	[self presentModalViewController:controller animated:YES];
+	UINavigationController *nc = [[UINavigationController alloc] initWithRootViewController:controller];
+	
+	nc.modalTransitionStyle = UIModalTransitionStyleFlipHorizontal;
+	[self presentModalViewController:nc animated:YES];
 	
 	[controller release];
+	[nc release];
 }
 
 
