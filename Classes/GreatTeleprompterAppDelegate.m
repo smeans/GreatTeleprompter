@@ -14,11 +14,11 @@
 
 @synthesize window;
 @synthesize mainViewController;
-@synthesize currentSpeech;
+@synthesize currentSpeechIndex;
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {    	
-	currentSpeech = [[NSString stringWithContentsOfFile:@"currentSpeech.txt" encoding:NSUTF8StringEncoding error:nil] retain];
+	speeches = [[NSMutableArray alloc] init];
 	
 	MainViewController *aController = [[MainViewController alloc] initWithNibName:@"MainView" bundle:nil];
 	self.mainViewController = aController;
@@ -31,15 +31,27 @@
 	return YES;
 }
 
+- (NSString *)currentSpeech
+{
+	return [speeches objectAtIndex:currentSpeechIndex];
+}
+
 - (void)setCurrentSpeech:(NSString *)newSpeech {
-	[currentSpeech release];
-	
-	currentSpeech = [newSpeech retain];
-	
-	[newSpeech writeToFile:@"currentSpeech.txt" atomically:YES encoding:NSUTF8StringEncoding error:nil];
+	if (currentSpeechIndex >= 0 && currentSpeechIndex < [speeches count]) {
+		[speeches removeObjectAtIndex:currentSpeechIndex];
+		[speeches insertObject:newSpeech atIndex:currentSpeechIndex];
+	} else {
+		[speeches addObject:newSpeech];
+	}
+}
+
+- (NSArray *)speeches
+{
+	return speeches;
 }
 
 - (void)dealloc {
+	[speeches release];
     [mainViewController release];
     [window release];
     [super dealloc];

@@ -13,12 +13,15 @@
 @interface GreatTeleprompterAppDelegate : NSObject <UIApplicationDelegate> {
     UIWindow *window;
     MainViewController *mainViewController;
-	NSString *currentSpeech;
+	int currentSpeechIndex;
+	NSMutableArray *speeches;
 }
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;
 @property (nonatomic, retain) MainViewController *mainViewController;
+@property (nonatomic, assign) int currentSpeechIndex;
 @property (nonatomic, retain) NSString *currentSpeech;
+@property (nonatomic, readonly) NSArray *speeches;
 
 @end
 
