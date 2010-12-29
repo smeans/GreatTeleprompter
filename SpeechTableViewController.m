@@ -82,7 +82,7 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
     // Return the number of rows in the section.
-    return 1;
+    return [theAppDelegate.speeches count];
 }
 
 
@@ -96,7 +96,7 @@
         cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier] autorelease];
     }
     
-    cell.textLabel.text = theAppDelegate.currentSpeech;
+    cell.textLabel.text = [theAppDelegate.speeches objectAtIndex:[indexPath indexAtPosition:1]];
     
     return cell;
 }

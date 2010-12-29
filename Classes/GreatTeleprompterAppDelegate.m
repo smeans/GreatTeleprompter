@@ -22,7 +22,10 @@
 	
 	NSString *path = [[NSBundle mainBundle] pathForResource:@"DefaultSpeech" ofType:@"txt"];
 	[speeches addObject:[NSString stringWithContentsOfFile:path encoding:NSUTF8StringEncoding error:nil]];
-		
+	[speeches addObject:@"Speech 2."];
+	[speeches addObject:@"Speech 3."];
+	[speeches addObject:@"Speech 4."];
+	
 	MainViewController *aController = [[MainViewController alloc] initWithNibName:@"MainView" bundle:nil];
 	self.mainViewController = aController;
 	[aController release];
