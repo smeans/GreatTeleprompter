@@ -9,7 +9,7 @@
 #import "MainViewController.h"
 #import "GreatTeleprompterAppDelegate.h"
 #import "DismissViewController.h"
-
+#import "SpeechTableViewController.h"
 
 @implementation MainViewController
 
@@ -63,16 +63,15 @@
 - (IBAction)showInfo {
 	DismissViewController *dmc = [[DismissViewController alloc] init];
 	UINavigationController *nc = [[UINavigationController alloc] initWithRootViewController:dmc];
+
+	SpeechTableViewController *stvc = [[SpeechTableViewController alloc] init];
 	
-	FlipsideViewController *controller = [[FlipsideViewController alloc] initWithNibName:@"FlipsideView" bundle:nil];
-	controller.delegate = self;
-	
-	[nc pushViewController:controller animated:NO];
+	[nc pushViewController:stvc animated:NO];
 	
 	nc.modalTransitionStyle = UIModalTransitionStyleFlipHorizontal;
 	[self presentModalViewController:nc animated:YES];
 	
-	[controller release];
+	[stvc release];
 	[nc release];
 	[dmc release];
 }

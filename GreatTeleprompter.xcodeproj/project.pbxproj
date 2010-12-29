@@ -18,6 +18,7 @@
 		289233AE0DB2D0DB0083E9F9 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 289233A90DB2D0DB0083E9F9 /* MainViewController.m */; };
 		289233B00DB2D0DB0083E9F9 /* FlipsideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 289233AD0DB2D0DB0083E9F9 /* FlipsideViewController.m */; };
 		CE1FC63212CAE113009F09A6 /* DismissViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE1FC63112CAE113009F09A6 /* DismissViewController.m */; };
+		CE1FC63712CAE457009F09A6 /* SpeechTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE1FC63612CAE457009F09A6 /* SpeechTableViewController.m */; };
 		CE30AE5112C7CEB600DFDDA8 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CE30AE5012C7CEB600DFDDA8 /* Settings.bundle */; };
 		CE80FB5611DD040D000CB627 /* PlayButton.png in Resources */ = {isa = PBXBuildFile; fileRef = CE80FB5511DD040D000CB627 /* PlayButton.png */; };
 		CE97388B11EDEABD00325D1D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE97388A11EDEABD00325D1D /* QuartzCore.framework */; };
@@ -43,6 +44,8 @@
 		8D1107310486CEB800E47090 /* GreatTeleprompter-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GreatTeleprompter-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 		CE1FC63012CAE113009F09A6 /* DismissViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DismissViewController.h; sourceTree = "<group>"; };
 		CE1FC63112CAE113009F09A6 /* DismissViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DismissViewController.m; sourceTree = "<group>"; };
+		CE1FC63512CAE457009F09A6 /* SpeechTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpeechTableViewController.h; sourceTree = "<group>"; };
+		CE1FC63612CAE457009F09A6 /* SpeechTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpeechTableViewController.m; sourceTree = "<group>"; };
 		CE30AE5012C7CEB600DFDDA8 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 		CE80FB5511DD040D000CB627 /* PlayButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PlayButton.png; sourceTree = "<group>"; };
 		CE97388A11EDEABD00325D1D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
@@ -90,6 +93,8 @@
 				289233AD0DB2D0DB0083E9F9 /* FlipsideViewController.m */,
 				CE1FC63012CAE113009F09A6 /* DismissViewController.h */,
 				CE1FC63112CAE113009F09A6 /* DismissViewController.m */,
+				CE1FC63512CAE457009F09A6 /* SpeechTableViewController.h */,
+				CE1FC63612CAE457009F09A6 /* SpeechTableViewController.m */,
 			);
 			name = "Flipside View";
 			sourceTree = "<group>";
@@ -230,6 +235,7 @@
 				289233B00DB2D0DB0083E9F9 /* FlipsideViewController.m in Sources */,
 				CEDA3F9C11C28CE500E7363F /* PrompterView.m in Sources */,
 				CE1FC63212CAE113009F09A6 /* DismissViewController.m in Sources */,
+				CE1FC63712CAE457009F09A6 /* SpeechTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

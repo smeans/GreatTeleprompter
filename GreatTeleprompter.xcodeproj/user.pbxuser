@@ -30,9 +30,9 @@
 	};
 	289233A90DB2D0DB0083E9F9 /* MainViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {852, 1404}}";
-			sepNavSelRange = "{1566, 0}";
-			sepNavVisRange = "{1486, 617}";
+			sepNavIntBoundsRect = "{{0, 0}, {852, 1430}}";
+			sepNavSelRange = "{1763, 0}";
+			sepNavVisRange = "{1545, 593}";
 			sepNavWindowFrame = "{{15, 135}, {750, 558}}";
 		};
 	};
@@ -152,12 +152,26 @@
 		vrLen = 722;
 		vrLoc = 601;
 	};
+	CE1FC63012CAE113009F09A6 /* DismissViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {562, 264}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 248}";
+		};
+	};
+	CE1FC63112CAE113009F09A6 /* DismissViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1146, 832}}";
+			sepNavSelRange = "{1298, 0}";
+			sepNavVisRange = "{894, 632}";
+		};
+	};
 	CE30AE5412C7CEBF00DFDDA8 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 289233A90DB2D0DB0083E9F9 /* MainViewController.m */;
 		name = "MainViewController.m: 71";
 		rLen = 0;
-		rLoc = 1975;
+		rLoc = 2135;
 		rType = 0;
 		vrLen = 584;
 		vrLoc = 1486;
