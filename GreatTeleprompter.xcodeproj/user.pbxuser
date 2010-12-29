@@ -10,8 +10,8 @@
 	1D3623250D0F684500981E51 /* GreatTeleprompterAppDelegate.m */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {894, 637}}";
-			sepNavSelRange = "{949, 0}";
-			sepNavVisRange = "{0, 607}";
+			sepNavSelRange = "{235, 0}";
+			sepNavVisRange = "{3, 604}";
 			sepNavWindowFrame = "{{15, 135}, {750, 558}}";
 		};
 	};
@@ -25,29 +25,29 @@
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {593, 325}}";
 			sepNavSelRange = "{494, 55}";
-			sepNavVisRange = "{50, 546}";
+			sepNavVisRange = "{50, 506}";
 		};
 	};
 	289233A90DB2D0DB0083E9F9 /* MainViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {852, 1326}}";
-			sepNavSelRange = "{1876, 0}";
-			sepNavVisRange = "{1486, 584}";
+			sepNavIntBoundsRect = "{{0, 0}, {852, 1404}}";
+			sepNavSelRange = "{1566, 0}";
+			sepNavVisRange = "{1486, 617}";
 			sepNavWindowFrame = "{{15, 135}, {750, 558}}";
 		};
 	};
 	289233AC0DB2D0DB0083E9F9 /* FlipsideViewController.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {586, 364}}";
+			sepNavIntBoundsRect = "{{0, 0}, {562, 403}}";
 			sepNavSelRange = "{0, 0}";
-			sepNavVisRange = "{0, 362}";
+			sepNavVisRange = "{0, 460}";
 		};
 	};
 	289233AD0DB2D0DB0083E9F9 /* FlipsideViewController.m */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {663, 702}}";
 			sepNavSelRange = "{1003, 0}";
-			sepNavVisRange = "{722, 333}";
+			sepNavVisRange = "{720, 335}";
 			sepNavWindowFrame = "{{15, 135}, {750, 558}}";
 		};
 	};
@@ -157,7 +157,7 @@
 		fRef = 289233A90DB2D0DB0083E9F9 /* MainViewController.m */;
 		name = "MainViewController.m: 71";
 		rLen = 0;
-		rLoc = 1876;
+		rLoc = 1975;
 		rType = 0;
 		vrLen = 584;
 		vrLoc = 1486;
@@ -327,7 +327,7 @@
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1174, 2314}}";
 			sepNavSelRange = "{1025, 0}";
-			sepNavVisRange = "{601, 722}";
+			sepNavVisRange = "{601, 755}";
 			sepNavWindowFrame = "{{15, 135}, {750, 558}}";
 		};
 	};

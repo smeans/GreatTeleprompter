@@ -8,6 +8,7 @@
 
 #import "MainViewController.h"
 #import "GreatTeleprompterAppDelegate.h"
+#import "DismissViewController.h"
 
 
 @implementation MainViewController
@@ -60,17 +61,20 @@
 }
 
 - (IBAction)showInfo {
+	DismissViewController *dmc = [[DismissViewController alloc] init];
+	UINavigationController *nc = [[UINavigationController alloc] initWithRootViewController:dmc];
 	
 	FlipsideViewController *controller = [[FlipsideViewController alloc] initWithNibName:@"FlipsideView" bundle:nil];
 	controller.delegate = self;
 	
-	UINavigationController *nc = [[UINavigationController alloc] initWithRootViewController:controller];
+	[nc pushViewController:controller animated:NO];
 	
 	nc.modalTransitionStyle = UIModalTransitionStyleFlipHorizontal;
 	[self presentModalViewController:nc animated:YES];
 	
 	[controller release];
 	[nc release];
+	[dmc release];
 }
 
 
