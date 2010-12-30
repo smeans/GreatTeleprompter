@@ -20,11 +20,14 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {    	
 	speeches = [[NSMutableArray alloc] initWithContentsOfFile:@"speeches"];
 	
-	NSString *path = [[NSBundle mainBundle] pathForResource:@"DefaultSpeech" ofType:@"txt"];
-	[speeches addObject:[NSString stringWithContentsOfFile:path encoding:NSUTF8StringEncoding error:nil]];
-	[speeches addObject:@"Speech 2."];
-	[speeches addObject:@"Speech 3."];
-	[speeches addObject:@"Speech 4."];
+	if (!speeches) {
+		speeches = [[NSMutableArray alloc] init];
+	}
+	
+	if ([speeches count] <= 0) {
+		NSString *path = [[NSBundle mainBundle] pathForResource:@"DefaultSpeech" ofType:@"txt"];
+		[speeches addObject:[NSString stringWithContentsOfFile:path encoding:NSUTF8StringEncoding error:nil]];		
+	}
 	
 	MainViewController *aController = [[MainViewController alloc] initWithNibName:@"MainView" bundle:nil];
 	self.mainViewController = aController;
