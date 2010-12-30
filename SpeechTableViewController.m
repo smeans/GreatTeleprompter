@@ -30,17 +30,15 @@
 #pragma mark -
 #pragma mark View lifecycle
 
-/*
+
 - (void)viewDidLoad {
     [super viewDidLoad];
 
-    // Uncomment the following line to preserve selection between presentations.
-    self.clearsSelectionOnViewWillAppear = NO;
- 
-    // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-    // self.navigationItem.rightBarButtonItem = self.editButtonItem;
+	UIBarButtonItem *addButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAdd target:self action:@selector(addSpeech)];
+    self.navigationItem.rightBarButtonItem = addButton;
+	
+	[addButton release];
 }
-*/
 
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
@@ -156,6 +154,10 @@
 	[sevc release];
 }
 
+- (IBAction)addSpeech
+{
+	NSLog(@"add speech");
+}
 
 #pragma mark -
 #pragma mark Memory management
