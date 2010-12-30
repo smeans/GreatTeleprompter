@@ -147,17 +147,25 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
 	theAppDelegate.currentSpeechIndex = [indexPath indexAtPosition:1];
 	
-	SpeechEditViewController *sevc = [[SpeechEditViewController alloc] initWithNibName:@"SpeechEditView" bundle:nil];
-
-	[self.navigationController pushViewController:sevc animated:YES];
-
-	[sevc release];
+	[self editSpeech];
 }
 
 - (IBAction)addSpeech
 {
-	NSLog(@"add speech");
+	theAppDelegate.currentSpeechIndex = -1;
+	
+	[self editSpeech];
 }
+
+- (IBAction)editSpeech
+{
+	SpeechEditViewController *sevc = [[SpeechEditViewController alloc] initWithNibName:@"SpeechEditView" bundle:nil];
+	
+	[self.navigationController pushViewController:sevc animated:YES];
+	
+	[sevc release];	
+}
+
 
 #pragma mark -
 #pragma mark Memory management

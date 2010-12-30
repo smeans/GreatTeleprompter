@@ -42,7 +42,11 @@
 
 - (NSString *)currentSpeech
 {
-	return [speeches objectAtIndex:currentSpeechIndex];
+	if (currentSpeechIndex >= 0 && currentSpeechIndex < [speeches count]) {
+		return [speeches objectAtIndex:currentSpeechIndex];
+	} else {
+		return @"";
+	}
 }
 
 - (void)setCurrentSpeech:(NSString *)newSpeech {

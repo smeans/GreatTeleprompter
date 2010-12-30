@@ -14,5 +14,6 @@
 }
 
 - (IBAction)addSpeech;
+- (IBAction)editSpeech;
 
 @end
