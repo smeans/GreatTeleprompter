@@ -146,6 +146,8 @@
 #pragma mark Table view delegate
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+	theAppDelegate.currentSpeechIndex = [indexPath indexAtPosition:1];
+	
 	SpeechEditViewController *sevc = [[SpeechEditViewController alloc] initWithNibName:@"SpeechEditView" bundle:nil];
 
 	[self.navigationController pushViewController:sevc animated:YES];
