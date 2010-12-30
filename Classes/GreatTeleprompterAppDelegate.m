@@ -18,7 +18,7 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {    	
-	speeches = [[NSMutableArray alloc] init];
+	speeches = [[NSMutableArray alloc] initWithContentsOfFile:@"speeches"];
 	
 	NSString *path = [[NSBundle mainBundle] pathForResource:@"DefaultSpeech" ofType:@"txt"];
 	[speeches addObject:[NSString stringWithContentsOfFile:path encoding:NSUTF8StringEncoding error:nil]];
@@ -49,6 +49,8 @@
 	} else {
 		[speeches addObject:newSpeech];
 	}
+	
+	[speeches writeToFile:@"speeches" atomically:YES];
 }
 
 - (NSArray *)speeches
