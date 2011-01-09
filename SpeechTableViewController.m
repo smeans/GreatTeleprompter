@@ -44,6 +44,8 @@
     [super viewWillAppear:animated];
 	
 	[self.tableView reloadData];
+	[self.tableView selectRowAtIndexPath:[NSIndexPath indexPathForRow:theAppDelegate.currentSpeechIndex inSection:0]
+								animated:NO scrollPosition:UITableViewScrollPositionNone];
 }
 
 /*
