@@ -95,6 +95,7 @@
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
     if (cell == nil) {
         cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier] autorelease];
+		cell.accessoryType = UITableViewCellAccessoryDetailDisclosureButton;
     }
     
     cell.textLabel.text = [theAppDelegate.speeches objectAtIndex:[indexPath indexAtPosition:1]];
@@ -147,6 +148,11 @@
 #pragma mark Table view delegate
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+	theAppDelegate.currentSpeechIndex = [indexPath indexAtPosition:1];
+}
+
+- (void)tableView:(UITableView *)tableView accessoryButtonTappedForRowWithIndexPath:(NSIndexPath *)indexPath
+{
 	theAppDelegate.currentSpeechIndex = [indexPath indexAtPosition:1];
 	
 	[self editSpeech];
