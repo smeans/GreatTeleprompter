@@ -60,6 +60,19 @@
 	[speeches writeToFile:@"speeches" atomically:YES];
 }
 
+- (void)deleteCurrentSpeech
+{
+	if (currentSpeechIndex < 0 || currentSpeechIndex >= [speeches count]) {
+		return;
+	}
+	
+	[speeches removeObjectAtIndex:currentSpeechIndex];
+	[speeches writeToFile:@"speeches" atomically:YES];
+	
+	self.currentSpeechIndex = MIN(self.currentSpeechIndex, [speeches count]-1);
+}
+
+
 - (NSArray *)speeches
 {
 	return speeches;

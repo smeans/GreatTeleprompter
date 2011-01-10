@@ -23,6 +23,8 @@
 @property (nonatomic, retain) NSString *currentSpeech;
 @property (nonatomic, readonly) NSArray *speeches;
 
+- (void)deleteCurrentSpeech;
+
 @end
 
 #define theAppDelegate	((GreatTeleprompterAppDelegate *)[UIApplication sharedApplication].delegate)
