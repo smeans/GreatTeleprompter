@@ -10,9 +10,9 @@
 	};
 	1D3623250D0F684500981E51 /* GreatTeleprompterAppDelegate.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {852, 1300}}";
-			sepNavSelRange = "{911, 0}";
-			sepNavVisRange = "{604, 754}";
+			sepNavIntBoundsRect = "{{0, 0}, {852, 1235}}";
+			sepNavSelRange = "{1878, 0}";
+			sepNavVisRange = "{1547, 624}";
 			sepNavWindowFrame = "{{15, 135}, {750, 558}}";
 		};
 	};
@@ -145,6 +145,9 @@
 			CED97D9F12F31FD3001EE43F /* PBXTextBookmark */ = CED97D9F12F31FD3001EE43F /* PBXTextBookmark */;
 			CED97DA412F3202F001EE43F /* PBXTextBookmark */ = CED97DA412F3202F001EE43F /* PBXTextBookmark */;
 			CED97DA812F32068001EE43F /* PBXTextBookmark */ = CED97DA812F32068001EE43F /* PBXTextBookmark */;
+			CED97DB212F3220B001EE43F /* PBXTextBookmark */ = CED97DB212F3220B001EE43F /* PBXTextBookmark */;
+			CED97DB312F3220B001EE43F /* PBXTextBookmark */ = CED97DB312F3220B001EE43F /* PBXTextBookmark */;
+			CED97DB412F3220B001EE43F /* PBXTextBookmark */ = CED97DB412F3220B001EE43F /* PBXTextBookmark */;
 		};
 		sourceControlManager = CEB3ECEE1169870E001D2803 /* Source Control */;
 		userBuildSettings = {
@@ -165,7 +168,7 @@
 		fRef = 1D3623250D0F684500981E51 /* GreatTeleprompterAppDelegate.m */;
 		name = "GreatTeleprompterAppDelegate.m: 72";
 		rLen = 0;
-		rLoc = 2466;
+		rLoc = 2516;
 		rType = 0;
 		vrLen = 462;
 		vrLoc = 1641;
@@ -213,9 +216,9 @@
 	};
 	CE1FC63612CAE457009F09A6 /* SpeechTableViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1076, 2379}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1076, 2405}}";
 			sepNavSelRange = "{2980, 0}";
-			sepNavVisRange = "{2743, 648}";
+			sepNavVisRange = "{2867, 807}";
 			sepNavWindowFrame = "{{15, 135}, {750, 558}}";
 		};
 	};
@@ -554,6 +557,36 @@
 		rType = 0;
 		vrLen = 648;
 		vrLoc = 2743;
+	};
+	CED97DB212F3220B001EE43F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = CE1FC63612CAE457009F09A6 /* SpeechTableViewController.m */;
+		name = "SpeechTableViewController.m: 109";
+		rLen = 0;
+		rLoc = 2980;
+		rType = 0;
+		vrLen = 807;
+		vrLoc = 2867;
+	};
+	CED97DB312F3220B001EE43F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* GreatTeleprompterAppDelegate.m */;
+		name = "GreatTeleprompterAppDelegate.m: 31";
+		rLen = 0;
+		rLoc = 911;
+		rType = 0;
+		vrLen = 754;
+		vrLoc = 604;
+	};
+	CED97DB412F3220B001EE43F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* GreatTeleprompterAppDelegate.m */;
+		name = "GreatTeleprompterAppDelegate.m: 60";
+		rLen = 0;
+		rLoc = 1878;
+		rType = 0;
+		vrLen = 624;
+		vrLoc = 1547;
 	};
 	CEDA3F9A11C28CE500E7363F /* PrompterView.h */ = {
 		uiCtxt = {

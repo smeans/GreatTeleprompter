@@ -57,6 +57,7 @@
 		[speeches insertObject:newSpeech atIndex:currentSpeechIndex];
 	} else {
 		[speeches addObject:newSpeech];
+		self.currentSpeechIndex = [speeches count] - 1;
 	}
 	
 	[speeches writeToFile:[self.docDir stringByAppendingPathComponent:@"speeches"] atomically:YES];
