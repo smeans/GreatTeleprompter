@@ -2,17 +2,17 @@
 {
 	1D3623240D0F684500981E51 /* GreatTeleprompterAppDelegate.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {712, 390}}";
-			sepNavSelRange = "{703, 29}";
-			sepNavVisRange = "{63, 675}";
+			sepNavIntBoundsRect = "{{0, 0}, {712, 416}}";
+			sepNavSelRange = "{942, 0}";
+			sepNavVisRange = "{216, 726}";
 			sepNavWindowFrame = "{{38, 114}, {750, 558}}";
 		};
 	};
 	1D3623250D0F684500981E51 /* GreatTeleprompterAppDelegate.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {824, 1144}}";
-			sepNavSelRange = "{2035, 0}";
-			sepNavVisRange = "{1641, 462}";
+			sepNavIntBoundsRect = "{{0, 0}, {852, 1300}}";
+			sepNavSelRange = "{911, 0}";
+			sepNavVisRange = "{604, 754}";
 			sepNavWindowFrame = "{{15, 135}, {750, 558}}";
 		};
 	};
@@ -137,6 +137,14 @@
 			CED97D4212F30B11001EE43F /* PBXTextBookmark */ = CED97D4212F30B11001EE43F /* PBXTextBookmark */;
 			CED97D4F12F30B25001EE43F /* PBXTextBookmark */ = CED97D4F12F30B25001EE43F /* PBXTextBookmark */;
 			CED97D5B12F30B9E001EE43F /* PBXTextBookmark */ = CED97D5B12F30B9E001EE43F /* PBXTextBookmark */;
+			CED97D9A12F31FD3001EE43F /* PBXTextBookmark */ = CED97D9A12F31FD3001EE43F /* PBXTextBookmark */;
+			CED97D9B12F31FD3001EE43F /* PBXTextBookmark */ = CED97D9B12F31FD3001EE43F /* PBXTextBookmark */;
+			CED97D9C12F31FD3001EE43F /* PBXTextBookmark */ = CED97D9C12F31FD3001EE43F /* PBXTextBookmark */;
+			CED97D9D12F31FD3001EE43F /* PBXTextBookmark */ = CED97D9D12F31FD3001EE43F /* PBXTextBookmark */;
+			CED97D9E12F31FD3001EE43F /* PBXTextBookmark */ = CED97D9E12F31FD3001EE43F /* PBXTextBookmark */;
+			CED97D9F12F31FD3001EE43F /* PBXTextBookmark */ = CED97D9F12F31FD3001EE43F /* PBXTextBookmark */;
+			CED97DA412F3202F001EE43F /* PBXTextBookmark */ = CED97DA412F3202F001EE43F /* PBXTextBookmark */;
+			CED97DA812F32068001EE43F /* PBXTextBookmark */ = CED97DA812F32068001EE43F /* PBXTextBookmark */;
 		};
 		sourceControlManager = CEB3ECEE1169870E001D2803 /* Source Control */;
 		userBuildSettings = {
@@ -147,7 +155,7 @@
 		fRef = 1D3623240D0F684500981E51 /* GreatTeleprompterAppDelegate.h */;
 		name = "GreatTeleprompterAppDelegate.h: 26";
 		rLen = 29;
-		rLoc = 703;
+		rLoc = 753;
 		rType = 0;
 		vrLen = 675;
 		vrLoc = 63;
@@ -157,7 +165,7 @@
 		fRef = 1D3623250D0F684500981E51 /* GreatTeleprompterAppDelegate.m */;
 		name = "GreatTeleprompterAppDelegate.m: 72";
 		rLen = 0;
-		rLoc = 2035;
+		rLoc = 2466;
 		rType = 0;
 		vrLen = 462;
 		vrLoc = 1641;
@@ -167,7 +175,7 @@
 		fRef = CE1FC63612CAE457009F09A6 /* SpeechTableViewController.m */;
 		name = "SpeechTableViewController.m: 115";
 		rLen = 0;
-		rLoc = 3205;
+		rLoc = 3237;
 		rType = 0;
 		vrLen = 801;
 		vrLoc = 2748;
@@ -177,7 +185,7 @@
 		fRef = CE1FC63612CAE457009F09A6 /* SpeechTableViewController.m */;
 		name = "SpeechTableViewController.m: 116";
 		rLen = 0;
-		rLoc = 3245;
+		rLoc = 3277;
 		rType = 0;
 		vrLen = 807;
 		vrLoc = 2743;
@@ -205,9 +213,9 @@
 	};
 	CE1FC63612CAE457009F09A6 /* SpeechTableViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1076, 2275}}";
-			sepNavSelRange = "{2870, 0}";
-			sepNavVisRange = "{2845, 705}";
+			sepNavIntBoundsRect = "{{0, 0}, {1076, 2379}}";
+			sepNavSelRange = "{2980, 0}";
+			sepNavVisRange = "{2743, 648}";
 			sepNavWindowFrame = "{{15, 135}, {750, 558}}";
 		};
 	};
@@ -432,7 +440,7 @@
 		fRef = CE1FC63612CAE457009F09A6 /* SpeechTableViewController.m */;
 		name = "SpeechTableViewController.m: 116";
 		rLen = 0;
-		rLoc = 3245;
+		rLoc = 3277;
 		rType = 0;
 		vrLen = 702;
 		vrLoc = 2845;
@@ -442,7 +450,7 @@
 		fRef = CE1FC63612CAE457009F09A6 /* SpeechTableViewController.m */;
 		name = "SpeechTableViewController.m: 109";
 		rLen = 0;
-		rLoc = 2978;
+		rLoc = 3010;
 		rType = 0;
 		vrLen = 702;
 		vrLoc = 2845;
@@ -452,7 +460,7 @@
 		fRef = CE1FC63612CAE457009F09A6 /* SpeechTableViewController.m */;
 		name = "SpeechTableViewController.m: 109";
 		rLen = 0;
-		rLoc = 2978;
+		rLoc = 3010;
 		rType = 0;
 		vrLen = 702;
 		vrLoc = 2845;
@@ -467,18 +475,98 @@
 		vrLen = 705;
 		vrLoc = 2845;
 	};
+	CED97D9A12F31FD3001EE43F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* GreatTeleprompterAppDelegate.h */;
+		name = "GreatTeleprompterAppDelegate.h: 32";
+		rLen = 0;
+		rLoc = 942;
+		rType = 0;
+		vrLen = 726;
+		vrLoc = 216;
+	};
+	CED97D9B12F31FD3001EE43F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* GreatTeleprompterAppDelegate.m */;
+		name = "GreatTeleprompterAppDelegate.m: 31";
+		rLen = 0;
+		rLoc = 911;
+		rType = 0;
+		vrLen = 754;
+		vrLoc = 604;
+	};
+	CED97D9C12F31FD3001EE43F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = CEDA3F9A11C28CE500E7363F /* PrompterView.h */;
+		name = "PrompterView.h: 35";
+		rLen = 23;
+		rLoc = 825;
+		rType = 0;
+		vrLen = 579;
+		vrLoc = 329;
+	};
+	CED97D9D12F31FD3001EE43F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = CEDA3F9B11C28CE500E7363F /* PrompterView.m */;
+		name = "PrompterView.m: 42";
+		rLen = 0;
+		rLoc = 1085;
+		rType = 0;
+		vrLen = 719;
+		vrLoc = 667;
+	};
+	CED97D9E12F31FD3001EE43F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = CE1FC63612CAE457009F09A6 /* SpeechTableViewController.m */;
+		name = "SpeechTableViewController.m: 107";
+		rLen = 0;
+		rLoc = 2870;
+		rType = 0;
+		vrLen = 700;
+		vrLoc = 2845;
+	};
+	CED97D9F12F31FD3001EE43F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = CE1FC63612CAE457009F09A6 /* SpeechTableViewController.m */;
+		name = "SpeechTableViewController.m: 119";
+		rLen = 0;
+		rLoc = 3388;
+		rType = 0;
+		vrLen = 418;
+		vrLoc = 0;
+	};
+	CED97DA412F3202F001EE43F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = CE1FC63612CAE457009F09A6 /* SpeechTableViewController.m */;
+		name = "SpeechTableViewController.m: 126";
+		rLen = 0;
+		rLoc = 3673;
+		rType = 0;
+		vrLen = 852;
+		vrLoc = 2981;
+	};
+	CED97DA812F32068001EE43F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = CE1FC63612CAE457009F09A6 /* SpeechTableViewController.m */;
+		name = "SpeechTableViewController.m: 109";
+		rLen = 0;
+		rLoc = 2980;
+		rType = 0;
+		vrLen = 648;
+		vrLoc = 2743;
+	};
 	CEDA3F9A11C28CE500E7363F /* PrompterView.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {562, 572}}";
-			sepNavSelRange = "{454, 0}";
-			sepNavVisRange = "{329, 583}";
+			sepNavIntBoundsRect = "{{0, 0}, {562, 585}}";
+			sepNavSelRange = "{825, 23}";
+			sepNavVisRange = "{329, 579}";
 		};
 	};
 	CEDA3F9B11C28CE500E7363F /* PrompterView.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1174, 2314}}";
-			sepNavSelRange = "{1025, 0}";
-			sepNavVisRange = "{601, 755}";
+			sepNavIntBoundsRect = "{{0, 0}, {1020, 2470}}";
+			sepNavSelRange = "{1085, 0}";
+			sepNavVisRange = "{667, 719}";
 			sepNavWindowFrame = "{{15, 135}, {750, 558}}";
 		};
 	};

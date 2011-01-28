@@ -106,7 +106,7 @@
 
 
 - (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath {
-    return YES;
+    return [theAppDelegate.speeches count] > 1;
 }
 
 
@@ -116,6 +116,12 @@
 		
         [tableView deleteRowsAtIndexPaths:[NSArray arrayWithObject:indexPath] withRowAnimation:YES];
     }   
+}
+
+- (void)tableView:(UITableView *)tableView didEndEditingRowAtIndexPath:(NSIndexPath *)indexPath
+{
+	[self.tableView selectRowAtIndexPath:[NSIndexPath indexPathForRow:theAppDelegate.currentSpeechIndex inSection:0]
+								animated:NO scrollPosition:UITableViewScrollPositionNone];	
 }
 
 /*
