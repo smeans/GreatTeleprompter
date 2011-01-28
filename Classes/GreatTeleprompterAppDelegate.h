@@ -29,3 +29,4 @@
 @end
 
 #define theAppDelegate	((GreatTeleprompterAppDelegate *)[UIApplication sharedApplication].delegate)
+#define CURRENTSPEECHINDEX_KEY		@"CurrentSpeechIndex"

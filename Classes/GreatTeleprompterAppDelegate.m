@@ -27,6 +27,8 @@
 	if ([speeches count] <= 0) {
 		NSString *path = [[NSBundle mainBundle] pathForResource:@"DefaultSpeech" ofType:@"txt"];
 		[speeches addObject:[NSString stringWithContentsOfFile:path encoding:NSUTF8StringEncoding error:nil]];		
+	} else {
+		currentSpeechIndex = [[NSUserDefaults standardUserDefaults] integerForKey:CURRENTSPEECHINDEX_KEY];
 	}
 	
 	MainViewController *aController = [[MainViewController alloc] initWithNibName:@"MainView" bundle:nil];
@@ -58,6 +60,13 @@
 	}
 	
 	[speeches writeToFile:[self.docDir stringByAppendingPathComponent:@"speeches"] atomically:YES];
+}
+
+- (void)setCurrentSpeechIndex:(int)newIndex
+{
+	currentSpeechIndex = newIndex;
+	
+	[[NSUserDefaults standardUserDefaults] setInteger:currentSpeechIndex forKey:CURRENTSPEECHINDEX_KEY];
 }
 
 - (void)deleteCurrentSpeech
