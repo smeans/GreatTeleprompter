@@ -22,6 +22,7 @@
 @property (nonatomic, assign) int currentSpeechIndex;
 @property (nonatomic, retain) NSString *currentSpeech;
 @property (nonatomic, readonly) NSArray *speeches;
+@property (nonatomic, readonly) NSString *docDir;
 
 - (void)deleteCurrentSpeech;
 

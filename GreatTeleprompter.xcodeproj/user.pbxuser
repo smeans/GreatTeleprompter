@@ -2,17 +2,17 @@
 {
 	1D3623240D0F684500981E51 /* GreatTeleprompterAppDelegate.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {712, 364}}";
-			sepNavSelRange = "{690, 0}";
-			sepNavVisRange = "{164, 544}";
+			sepNavIntBoundsRect = "{{0, 0}, {712, 390}}";
+			sepNavSelRange = "{703, 29}";
+			sepNavVisRange = "{63, 675}";
 			sepNavWindowFrame = "{{38, 114}, {750, 558}}";
 		};
 	};
 	1D3623250D0F684500981E51 /* GreatTeleprompterAppDelegate.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {824, 962}}";
-			sepNavSelRange = "{1385, 0}";
-			sepNavVisRange = "{1031, 649}";
+			sepNavIntBoundsRect = "{{0, 0}, {824, 1144}}";
+			sepNavSelRange = "{2035, 0}";
+			sepNavVisRange = "{1641, 462}";
 			sepNavWindowFrame = "{{15, 135}, {750, 558}}";
 		};
 	};
@@ -112,10 +112,14 @@
 					PBXFileDataSource_Target_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 316360802;
-			PBXWorkspaceStateSaveDate = 316360802;
+			PBXPerProjectTemplateStateSaveDate = 317917890;
+			PBXWorkspaceStateSaveDate = 317917890;
 		};
 		perUserProjectItems = {
+			CE0CAF0112DB7BB600263C95 = CE0CAF0112DB7BB600263C95 /* PBXTextBookmark */;
+			CE0CAF0212DB7BB600263C95 = CE0CAF0212DB7BB600263C95 /* PBXTextBookmark */;
+			CE0CAF0312DB7BB600263C95 = CE0CAF0312DB7BB600263C95 /* PBXTextBookmark */;
+			CE0CAF0412DB7BB600263C95 = CE0CAF0412DB7BB600263C95 /* PBXTextBookmark */;
 			CE1FC67F12CAEEFE009F09A6 = CE1FC67F12CAEEFE009F09A6 /* PBXTextBookmark */;
 			CE1FC68112CAEEFE009F09A6 = CE1FC68112CAEEFE009F09A6 /* PBXTextBookmark */;
 			CE1FC68212CAEEFE009F09A6 = CE1FC68212CAEEFE009F09A6 /* PBXTextBookmark */;
@@ -126,17 +130,57 @@
 			CE8A43FE12C7DC35007ADB1E = CE8A43FE12C7DC35007ADB1E /* PlistBookmark */;
 			CEAAE0F512CBD1DA003F011A = CEAAE0F512CBD1DA003F011A /* PBXTextBookmark */;
 			CECCB65812CCDC4E00DE90C3 = CECCB65812CCDC4E00DE90C3 /* PBXTextBookmark */;
-			CECCB65912CCDC4E00DE90C3 = CECCB65912CCDC4E00DE90C3 /* PBXTextBookmark */;
 			CECCB66F12CCDDBC00DE90C3 = CECCB66F12CCDDBC00DE90C3 /* PBXTextBookmark */;
 			CECCB6D512CCF68400DE90C3 = CECCB6D512CCF68400DE90C3 /* PBXTextBookmark */;
-			CECE78D012DB485D003846A8 = CECE78D012DB485D003846A8 /* PBXTextBookmark */;
-			CECE78D112DB485D003846A8 = CECE78D112DB485D003846A8 /* PBXTextBookmark */;
-			CECE78D212DB485D003846A8 = CECE78D212DB485D003846A8 /* PBXTextBookmark */;
 			CED096AA12105AFF005C9F53 = CED096AA12105AFF005C9F53 /* PBXTextBookmark */;
+			CED97D2B12F30ACA001EE43F /* PBXTextBookmark */ = CED97D2B12F30ACA001EE43F /* PBXTextBookmark */;
+			CED97D4212F30B11001EE43F /* PBXTextBookmark */ = CED97D4212F30B11001EE43F /* PBXTextBookmark */;
+			CED97D4F12F30B25001EE43F /* PBXTextBookmark */ = CED97D4F12F30B25001EE43F /* PBXTextBookmark */;
+			CED97D5B12F30B9E001EE43F /* PBXTextBookmark */ = CED97D5B12F30B9E001EE43F /* PBXTextBookmark */;
 		};
 		sourceControlManager = CEB3ECEE1169870E001D2803 /* Source Control */;
 		userBuildSettings = {
 		};
+	};
+	CE0CAF0112DB7BB600263C95 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* GreatTeleprompterAppDelegate.h */;
+		name = "GreatTeleprompterAppDelegate.h: 26";
+		rLen = 29;
+		rLoc = 703;
+		rType = 0;
+		vrLen = 675;
+		vrLoc = 63;
+	};
+	CE0CAF0212DB7BB600263C95 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* GreatTeleprompterAppDelegate.m */;
+		name = "GreatTeleprompterAppDelegate.m: 72";
+		rLen = 0;
+		rLoc = 2035;
+		rType = 0;
+		vrLen = 462;
+		vrLoc = 1641;
+	};
+	CE0CAF0312DB7BB600263C95 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = CE1FC63612CAE457009F09A6 /* SpeechTableViewController.m */;
+		name = "SpeechTableViewController.m: 115";
+		rLen = 0;
+		rLoc = 3205;
+		rType = 0;
+		vrLen = 801;
+		vrLoc = 2748;
+	};
+	CE0CAF0412DB7BB600263C95 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = CE1FC63612CAE457009F09A6 /* SpeechTableViewController.m */;
+		name = "SpeechTableViewController.m: 116";
+		rLen = 0;
+		rLoc = 3245;
+		rType = 0;
+		vrLen = 807;
+		vrLoc = 2743;
 	};
 	CE1FC63012CAE113009F09A6 /* DismissViewController.h */ = {
 		uiCtxt = {
@@ -161,9 +205,9 @@
 	};
 	CE1FC63612CAE457009F09A6 /* SpeechTableViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1048, 2613}}";
-			sepNavSelRange = "{4378, 0}";
-			sepNavVisRange = "{4079, 573}";
+			sepNavIntBoundsRect = "{{0, 0}, {1076, 2275}}";
+			sepNavSelRange = "{2870, 0}";
+			sepNavVisRange = "{2845, 705}";
 			sepNavWindowFrame = "{{15, 135}, {750, 558}}";
 		};
 	};
@@ -346,16 +390,6 @@
 		vrLen = 509;
 		vrLoc = 650;
 	};
-	CECCB65912CCDC4E00DE90C3 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 1D3623240D0F684500981E51 /* GreatTeleprompterAppDelegate.h */;
-		name = "GreatTeleprompterAppDelegate.h: 24";
-		rLen = 0;
-		rLoc = 690;
-		rType = 0;
-		vrLen = 544;
-		vrLoc = 164;
-	};
 	CECCB66F12CCDDBC00DE90C3 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = CE1FC66F12CAE988009F09A6 /* SpeechEditViewController.h */;
@@ -376,36 +410,6 @@
 		vrLen = 309;
 		vrLoc = 0;
 	};
-	CECE78D012DB485D003846A8 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 1D3623250D0F684500981E51 /* GreatTeleprompterAppDelegate.m */;
-		name = "GreatTeleprompterAppDelegate.m: 48";
-		rLen = 0;
-		rLoc = 1385;
-		rType = 0;
-		vrLen = 649;
-		vrLoc = 1031;
-	};
-	CECE78D112DB485D003846A8 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = CE1FC63612CAE457009F09A6 /* SpeechTableViewController.m */;
-		name = "SpeechTableViewController.m: 46";
-		rLen = 0;
-		rLoc = 1263;
-		rType = 0;
-		vrLen = 563;
-		vrLoc = 692;
-	};
-	CECE78D212DB485D003846A8 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = CE1FC63612CAE457009F09A6 /* SpeechTableViewController.m */;
-		name = "SpeechTableViewController.m: 152";
-		rLen = 0;
-		rLoc = 4307;
-		rType = 0;
-		vrLen = 573;
-		vrLoc = 4079;
-	};
 	CED096AA12105AFF005C9F53 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = CED096AB12105AFF005C9F53 /* UIStringDrawing.h */;
@@ -422,6 +426,46 @@
 		name = UIStringDrawing.h;
 		path = /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIStringDrawing.h;
 		sourceTree = "<absolute>";
+	};
+	CED97D2B12F30ACA001EE43F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = CE1FC63612CAE457009F09A6 /* SpeechTableViewController.m */;
+		name = "SpeechTableViewController.m: 116";
+		rLen = 0;
+		rLoc = 3245;
+		rType = 0;
+		vrLen = 702;
+		vrLoc = 2845;
+	};
+	CED97D4212F30B11001EE43F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = CE1FC63612CAE457009F09A6 /* SpeechTableViewController.m */;
+		name = "SpeechTableViewController.m: 109";
+		rLen = 0;
+		rLoc = 2978;
+		rType = 0;
+		vrLen = 702;
+		vrLoc = 2845;
+	};
+	CED97D4F12F30B25001EE43F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = CE1FC63612CAE457009F09A6 /* SpeechTableViewController.m */;
+		name = "SpeechTableViewController.m: 109";
+		rLen = 0;
+		rLoc = 2978;
+		rType = 0;
+		vrLen = 702;
+		vrLoc = 2845;
+	};
+	CED97D5B12F30B9E001EE43F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = CE1FC63612CAE457009F09A6 /* SpeechTableViewController.m */;
+		name = "SpeechTableViewController.m: 107";
+		rLen = 0;
+		rLoc = 2870;
+		rType = 0;
+		vrLen = 705;
+		vrLoc = 2845;
 	};
 	CEDA3F9A11C28CE500E7363F /* PrompterView.h */ = {
 		uiCtxt = {

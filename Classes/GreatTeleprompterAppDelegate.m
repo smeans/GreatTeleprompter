@@ -72,6 +72,10 @@
 	self.currentSpeechIndex = MIN(self.currentSpeechIndex, [speeches count]-1);
 }
 
+- (NSString *)docDir
+{
+	return [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) lastObject];
+}
 
 - (NSArray *)speeches
 {
