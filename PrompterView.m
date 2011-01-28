@@ -70,7 +70,7 @@
 			self.paused = true;
 		}
 		
-		float maxOffset = baseSize.height - self.bounds.size.height;
+		float maxOffset = MAX(0, baseSize.height - self.bounds.size.height);
 		
 		if (speechOffset > maxOffset) {
 			speechOffset = maxOffset;
