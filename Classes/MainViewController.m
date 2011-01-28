@@ -33,7 +33,7 @@
 	prompter.theSpeech = theAppDelegate.currentSpeech;
 }
 
-- (void)viewDidAppear:(BOOL)animated
+- (void)viewWillAppear:(BOOL)animated
 {
 	prompter.theSpeech = theAppDelegate.currentSpeech;
 	
@@ -41,6 +41,8 @@
 		prompter.speechOffset = [[NSUserDefaults standardUserDefaults] floatForKey:SPEECHOFFSET_KEY];
 		hasInitialized = true;
 	}
+	
+	playButton.hidden = !prompter.paused;
 }
 
 - (void)flipsideViewControllerDidFinish:(FlipsideViewController *)controller {
