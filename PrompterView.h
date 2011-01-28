@@ -32,6 +32,7 @@
 
 - (void)timerTick:(NSTimer*)theTimer;
 - (void)initTouchInfo;
+- (void)recalcMetrics;
 
 #define TICK_INTERVAL		.05
 

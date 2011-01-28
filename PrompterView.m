@@ -37,7 +37,9 @@
 	CGFloat fontColor = blackOnWhite ? 0.0 : 1.0;
 	CGContextSetRGBFillColor(c, fontColor, fontColor, fontColor, 1.0);
 	
-	CGRect rc = CGRectMake(rect.origin.x, rect.origin.y - (speechOffset * (baseSize.width/self.bounds.size.width)), rect.size.width, rect.size.height + speechOffset);
+	double o = self.touchGap > 0 ? 0 : speechOffset;
+	
+	CGRect rc = CGRectMake(rect.origin.x, rect.origin.y - (o * (baseSize.width/self.bounds.size.width)), rect.size.width, rect.size.height + o);
 	
 	[theSpeech drawInRect:rc withFont:self.currentFont];
 }
@@ -50,10 +52,16 @@
 	tickTimer = [NSTimer scheduledTimerWithTimeInterval:TICK_INTERVAL target:self selector:@selector(timerTick:) userInfo:nil repeats:YES];
 	
 	speechOffset = 0.0;
-	baseSize = [theSpeech sizeWithFont:self.currentFont constrainedToSize:CGSizeMake(self.bounds.size.width, INFINITY)];
+	[self recalcMetrics];
 	
 	[self setNeedsDisplay];
 }
+
+- (void)recalcMetrics
+{
+	baseSize = [theSpeech sizeWithFont:self.currentFont constrainedToSize:CGSizeMake(self.bounds.size.width, INFINITY)];	
+}
+
 
 - (void)layoutSubviews
 {
@@ -123,6 +131,7 @@
 {
 	if ([currentTouches count] == 2) {
 		[[NSUserDefaults standardUserDefaults] setFloat:self.currentFont.pointSize forKey:FONT_SIZE_KEY];
+		[self recalcMetrics];
 	}
 	
 	[currentTouches minusSet:touches];
