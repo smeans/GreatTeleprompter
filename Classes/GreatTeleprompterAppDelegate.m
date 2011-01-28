@@ -18,7 +18,7 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {    	
-	speeches = [[NSMutableArray alloc] initWithContentsOfFile:@"speeches"];
+	speeches = [[NSMutableArray alloc] initWithContentsOfFile:[self.docDir stringByAppendingPathComponent:@"speeches"]];
 	
 	if (!speeches) {
 		speeches = [[NSMutableArray alloc] init];
@@ -57,7 +57,7 @@
 		[speeches addObject:newSpeech];
 	}
 	
-	[speeches writeToFile:@"speeches" atomically:YES];
+	[speeches writeToFile:[self.docDir stringByAppendingPathComponent:@"speeches"] atomically:YES];
 }
 
 - (void)deleteCurrentSpeech
@@ -67,7 +67,7 @@
 	}
 	
 	[speeches removeObjectAtIndex:currentSpeechIndex];
-	[speeches writeToFile:@"speeches" atomically:YES];
+	[speeches writeToFile:[self.docDir stringByAppendingPathComponent:@"speeches"] atomically:YES];
 	
 	self.currentSpeechIndex = MIN(self.currentSpeechIndex, [speeches count]-1);
 }
